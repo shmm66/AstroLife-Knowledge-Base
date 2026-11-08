@@ -7,17 +7,17 @@
     "fa",
     "en"
   ],
-  "total_cards": 130,
+  "total_cards": 136,
   "files": {
     "data/fa/core.jsonl": {
-      "sha256": "4cfc60cbfe8dd9465313a40a9a56d308c6e7c70dd06db39880386e56f855d2f7",
-      "bytes": 96008,
-      "entries": 65
+      "sha256": "3ccd4e7b88b098d1563750bd1ee90997fa3272290b308f02774652ca92523198",
+      "bytes": 104471,
+      "entries": 68
     },
     "data/en/core.jsonl": {
-      "sha256": "4bbc8a153a92ce470b53be89edecafdee29d3ff0a58ac457e070d0821ea8fd79",
-      "bytes": 72366,
-      "entries": 65
+      "sha256": "341bf1b19f7d7d7921edc7b880807eac4b67349f146094cdb3d25c366542f88b",
+      "bytes": 78503,
+      "entries": 68
     },
     "data/reference/planetary-parameters.json": {
       "sha256": "df525e637a82fd97de4de42d7998247decfa3e296d9992954238078f02c269b9",
@@ -25,8 +25,8 @@
       "entries": null
     },
     "sources/sources.json": {
-      "sha256": "04255039e6f2e5493b6090f8b6a3138d3fa29b3f283573121747032210a3af01",
-      "bytes": 14598,
+      "sha256": "e9f9875ce8004e3633f499d64be8510b8b817f853b05cb4cb9ecd6b756ba2ba0",
+      "bytes": 17155,
       "entries": null
     },
     "schemas/knowledge.schema.json": {

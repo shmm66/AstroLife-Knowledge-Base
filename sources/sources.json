@@ -35,6 +35,16 @@
       "accessed_at": "2026-11-09"
     },
     {
+      "id": "ASTRO_COM_CHART_TYPES",
+      "title": "Astrodienst — Overview of chart types",
+      "publisher": "Astrodienst / astro.com",
+      "url": "https://www.astro.com/faq/fq_fh_owtype_e.htm",
+      "source_type": "practitioner_reference",
+      "use": "Used to distinguish natal, synastry, composite, multi-composite and natal-with-transits chart products and the underlying chart construction methods.",
+      "rights_note": "Taxonomy and method notes only; no copyrighted interpretation text is copied.",
+      "accessed_at": "2026-11-09"
+    },
+    {
       "id": "ASTRO_DATABANK_EXCLUDED",
       "title": "Astro-Databank copyright and reuse policy",
       "publisher": "Astrodienst AG",
@@ -43,6 +53,26 @@
       "use": "Exclusion rule: no scraping or copying protected prose/images.",
       "rights_note": "Astro-Databank explicitly prohibits spidering/scraping and reserves rights in its creative text and images.",
       "evidence_class": "license_restriction",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "CAFE_ASTROLOGY_EXPLORE",
+      "title": "Cafe Astrology — Main categories",
+      "publisher": "Cafe Astrology",
+      "url": "https://cafeastrology.com/explore.html",
+      "source_type": "practitioner_reference",
+      "use": "Used to map learning and browsing categories: forecasts, tools, natal interpretations, free reports, synastry, basics, planets and points, predictive astrology, signs and horoscopes.",
+      "rights_note": "Taxonomy only; no article text or interpretations copied.",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "CAFE_ASTROLOGY_REPORTS",
+      "title": "Cafe Astrology — Free astrology reports and chart interpretations",
+      "publisher": "Cafe Astrology",
+      "url": "https://astro.cafeastrology.com/index.php",
+      "source_type": "practitioner_reference",
+      "use": "Used to structure readable report sections: placements, signs, houses, aspects, natal, transit and compatibility reports.",
+      "rights_note": "Taxonomy only; original explanatory prose is authored for AstroLife.",
       "accessed_at": "2026-11-09"
     },
     {
@@ -219,6 +249,16 @@
       "use": "Exclusion rule until the project has selected and complied with a permitted license.",
       "rights_note": "Dual AGPL/professional licensing. It is not included in this repository or bundled application by default.",
       "evidence_class": "license_restriction",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "SYNERGY_ASTROLOGY_FA",
+      "title": "Synergy and Astrology — Persian astrology education and chart services taxonomy",
+      "publisher": "Synergy and Astrology",
+      "url": "https://synergyandastrology.com/",
+      "source_type": "practitioner_website_taxonomy",
+      "use": "Used only to map Persian-facing service and content categories: natal chart, predictive astrology, horary, electional, medical astrology (excluded from health guidance), psychological astrology, Western, Vedic, Chinese and evolutionary traditions; zodiac-sign pages and educational content. No article text is reproduced.",
+      "rights_note": "Website is a secondary practitioner source, not an astronomy or clinical evidence authority. Category labels only; all original descriptions are newly written. Medical-astrology claims are excluded.",
       "accessed_at": "2026-11-09"
     },
     {

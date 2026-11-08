@@ -55,3 +55,16 @@ The public repository contains no birth profiles, names, charts, prompts, relati
 - Independent evaluation and broader content expansion: ongoing.
 
 This is a growing reference library, not an exhaustive encyclopedia. Correct astronomical calculations do not establish predictive astrological validity.
+
+ 
+## Chart and report taxonomy (0.2.0)
+
+AstroLife routes reports by **chart type**, then labels the **astrological tradition**, then the optional **interpretive lens**. These dimensions must not be mixed:
+
+- Chart types: natal, transits, progressions, solar return, lunar return, synastry, composite, horary and electional.
+- Traditions: Western tropical, Vedic/sidereal and Chinese astrology.
+- Interpretive lenses: psychological, traditional and evolutionary.
+- Reports: natal overview; planets in signs and houses; angles and chart ruler (only when birth time supports them); major aspects with exact orbs; elements/modalities; detected house emphasis; synthesis and reflection prompts.
+- Relationship reports: synastry compares two charts; composite treats the relationship as a derived chart. Do not reduce either to a deterministic compatibility verdict.
+
+Synergy and Astrology is used as a Persian-facing taxonomy reference; Astro.com and Cafe Astrology are additional practitioner references for chart-type and report structure. Their text is not copied. Medical astrology is excluded from health advice and diagnosis. These categories describe astrological traditions and are not scientific validation of predictive claims.
