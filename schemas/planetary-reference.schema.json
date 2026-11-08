@@ -38,7 +38,7 @@
     "source_url": {
       "type": "string",
       "format": "uri",
-      "pattern": "^https://ssd\\\\.jpl\\\\.nasa\\\\.gov/"
+      "pattern": "^https://ssd\\.jpl\\.nasa\\.gov/"
     },
     "publisher": {
       "const": "NASA Jet Propulsion Laboratory, Solar System Dynamics"
