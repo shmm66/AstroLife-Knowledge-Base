@@ -3,8 +3,8 @@
 An open, bilingual Persian/English knowledge library and offline-first retrieval agent for AstroLife Pro.
 
 **Release:** 0.2.0  
-**Curated corpus:** 130 reviewed seed cards — 65 Persian and 65 English  
-**Registered sources:** 21  
+**Curated corpus:** 136 reviewed seed cards — 68 Persian and 68 English  
+**Registered sources:** 25  
 **Structured planetary reference:** 8 IAU planets + 5 JPL-listed dwarf planets  
 **Release date:** 2026-11-09
 
