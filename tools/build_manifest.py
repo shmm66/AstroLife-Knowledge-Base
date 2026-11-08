@@ -3,15 +3,18 @@
 from __future__ import annotations
 import hashlib
 import json
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.1"
+VERSION = "0.2.0"
 FILES = [
     "data/fa/core.jsonl",
     "data/en/core.jsonl",
+    "data/reference/planetary-parameters.json",
     "sources/sources.json",
     "schemas/knowledge.schema.json",
+    "schemas/planetary-reference.schema.json",
     "artifacts/ranker-model.json"
 ]
 
@@ -40,7 +43,7 @@ def main() -> None:
         "name": "AstroLife Knowledge Base",
         "version": VERSION,
         "schema_version": "1.0",
-        "release_date": "2026-11-09",
+        "release_date": date.today().isoformat(),
         "languages": ["fa", "en"],
         "total_cards": items["data/fa/core.jsonl"]["entries"] + items["data/en/core.jsonl"]["entries"],
         "files": items,

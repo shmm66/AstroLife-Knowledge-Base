@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0",
+  "dataset": "AstroLife Planetary Physical Parameters",
+  "dataset_version": "1.1",
+  "retrieved_at": "2026-11-09",
+  "source_id": "JPL_PHYSICAL_PARAMETERS",
+  "source_url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+  "publisher": "NASA Jet Propulsion Laboratory, Solar System Dynamics",
+  "description": "Selected physical and orbital reference values as published in the JPL Planetary Physical Parameters table. These are not astrological interpretations and are not chart positions.",
+  "units": {
+    "equatorial_radius_km": "km",
+    "mean_radius_km": "km",
+    "mass_1e24_kg": "10^24 kg",
+    "bulk_density_g_cm3": "g/cm^3",
+    "sidereal_rotation_period_days": "Earth days; negative sign indicates retrograde rotation under the JPL table convention",
+    "sidereal_orbital_period_years": "Earth years",
+    "visual_magnitude_v_1_0": "visual magnitude at 1 au from both Sun and observer, as defined by JPL",
+    "geometric_albedo": "dimensionless",
+    "equatorial_gravity_m_s2": "m/s^2",
+    "escape_velocity_km_s": "km/s"
+  },
+  "planets": [
+    {
+      "name": "Mercury",
+      "equatorial_radius_km": 2440.53,
+      "mean_radius_km": 2439.4,
+      "mass_1e24_kg": 0.330103,
+      "bulk_density_g_cm3": 5.4289,
+      "sidereal_rotation_period_days": 58.6462,
+      "sidereal_orbital_period_years": 0.2408467,
+      "uncertainties": {
+        "equatorial_radius_km": 0.04,
+        "mean_radius_km": 0.1,
+        "mass_1e24_kg": 2.1e-05,
+        "bulk_density_g_cm3": 0.0007,
+        "visual_magnitude_v_1_0": 0.1
+      },
+      "visual_magnitude_v_1_0": -0.6,
+      "geometric_albedo": 0.106,
+      "equatorial_gravity_m_s2": 3.7,
+      "escape_velocity_km_s": 4.25
+    },
+    {
+      "name": "Venus",
+      "equatorial_radius_km": 6051.8,
+      "mean_radius_km": 6051.8,
+      "mass_1e24_kg": 4.86731,
+      "bulk_density_g_cm3": 5.243,
+      "sidereal_rotation_period_days": -243.018,
+      "sidereal_orbital_period_years": 0.61519726,
+      "uncertainties": {
+        "equatorial_radius_km": 1.0,
+        "mean_radius_km": 1.0,
+        "mass_1e24_kg": 0.00023,
+        "bulk_density_g_cm3": 0.003,
+        "visual_magnitude_v_1_0": 0.07
+      },
+      "visual_magnitude_v_1_0": -4.47,
+      "geometric_albedo": 0.65,
+      "equatorial_gravity_m_s2": 8.87,
+      "escape_velocity_km_s": 10.36
+    },
+    {
+      "name": "Earth",
+      "equatorial_radius_km": 6378.1366,
+      "mean_radius_km": 6371.0084,
+      "mass_1e24_kg": 5.97217,
+      "bulk_density_g_cm3": 5.5134,
+      "sidereal_rotation_period_days": 0.99726968,
+      "sidereal_orbital_period_years": 1.0000174,
+      "uncertainties": {
+        "equatorial_radius_km": 0.0001,
+        "mean_radius_km": 0.0001,
+        "mass_1e24_kg": 0.00028,
+        "bulk_density_g_cm3": 0.0003
+      },
+      "visual_magnitude_v_1_0": -3.86,
+      "geometric_albedo": 0.367,
+      "equatorial_gravity_m_s2": 9.8,
+      "escape_velocity_km_s": 11.19
+    },
+    {
+      "name": "Mars",
+      "equatorial_radius_km": 3396.19,
+      "mean_radius_km": 3389.5,
+      "mass_1e24_kg": 0.641691,
+      "bulk_density_g_cm3": 3.934,
+      "sidereal_rotation_period_days": 1.02595676,
+      "sidereal_orbital_period_years": 1.8808476,
+      "uncertainties": {
+        "equatorial_radius_km": 0.1,
+        "mean_radius_km": 0.2,
+        "mass_1e24_kg": 3e-05,
+        "bulk_density_g_cm3": 0.0007
+      },
+      "visual_magnitude_v_1_0": -1.52,
+      "geometric_albedo": 0.15,
+      "equatorial_gravity_m_s2": 3.71,
+      "escape_velocity_km_s": 5.03
+    },
+    {
+      "name": "Jupiter",
+      "equatorial_radius_km": 71492,
+      "mean_radius_km": 69911,
+      "mass_1e24_kg": 1898.125,
+      "bulk_density_g_cm3": 1.3262,
+      "sidereal_rotation_period_days": 0.41354,
+      "sidereal_orbital_period_years": 11.862615,
+      "uncertainties": {
+        "equatorial_radius_km": 4,
+        "mean_radius_km": 6,
+        "mass_1e24_kg": 0.088,
+        "bulk_density_g_cm3": 0.0003
+      },
+      "visual_magnitude_v_1_0": -9.4,
+      "geometric_albedo": 0.52,
+      "equatorial_gravity_m_s2": 24.79,
+      "escape_velocity_km_s": 60.2
+    },
+    {
+      "name": "Saturn",
+      "equatorial_radius_km": 60268,
+      "mean_radius_km": 58232,
+      "mass_1e24_kg": 568.317,
+      "bulk_density_g_cm3": 0.6871,
+      "sidereal_rotation_period_days": 0.44401,
+      "sidereal_orbital_period_years": 29.447498,
+      "uncertainties": {
+        "equatorial_radius_km": 4,
+        "mean_radius_km": 6,
+        "mass_1e24_kg": 0.026,
+        "bulk_density_g_cm3": 0.0002
+      },
+      "visual_magnitude_v_1_0": -8.88,
+      "geometric_albedo": 0.47,
+      "equatorial_gravity_m_s2": 10.44,
+      "escape_velocity_km_s": 36.09
+    },
+    {
+      "name": "Uranus",
+      "equatorial_radius_km": 25559,
+      "mean_radius_km": 25362,
+      "mass_1e24_kg": 86.8099,
+      "bulk_density_g_cm3": 1.27,
+      "sidereal_rotation_period_days": -0.71833,
+      "sidereal_orbital_period_years": 84.016846,
+      "uncertainties": {
+        "equatorial_radius_km": 4,
+        "mean_radius_km": 7,
+        "mass_1e24_kg": 0.004,
+        "bulk_density_g_cm3": 0.001
+      },
+      "visual_magnitude_v_1_0": -7.19,
+      "geometric_albedo": 0.51,
+      "equatorial_gravity_m_s2": 8.87,
+      "escape_velocity_km_s": 21.38
+    },
+    {
+      "name": "Neptune",
+      "equatorial_radius_km": 24764,
+      "mean_radius_km": 24622,
+      "mass_1e24_kg": 102.4092,
+      "bulk_density_g_cm3": 1.638,
+      "sidereal_rotation_period_days": 0.67125,
+      "sidereal_orbital_period_years": 164.79132,
+      "uncertainties": {
+        "equatorial_radius_km": 15,
+        "mean_radius_km": 19,
+        "mass_1e24_kg": 0.0048,
+        "bulk_density_g_cm3": 0.004
+      },
+      "visual_magnitude_v_1_0": -6.87,
+      "geometric_albedo": 0.41,
+      "equatorial_gravity_m_s2": 11.15,
+      "escape_velocity_km_s": 23.56
+    }
+  ],
+  "dwarf_planets": [
+    {
+      "name": "Ceres",
+      "iau_classification": "dwarf planet",
+      "equatorial_radius_km": 482.1,
+      "mean_radius_km": 469.7,
+      "mass_1e18_kg": 938.416,
+      "bulk_density_g_cm3": 2.162,
+      "sidereal_rotation_period_days": 0.37809042,
+      "sidereal_orbital_period_years": 4.61,
+      "uncertainties": {
+        "mass_1e18_kg": 0.013,
+        "bulk_density_g_cm3": 0.008,
+        "geometric_albedo": 0.003
+      },
+      "visual_magnitude_v_1_0": 3.34,
+      "geometric_albedo": 0.09,
+      "equatorial_gravity_m_s2": 0.27,
+      "escape_velocity_km_s": 0.51
+    },
+    {
+      "name": "Pluto",
+      "iau_classification": "dwarf planet",
+      "equatorial_radius_km": 1188.3,
+      "mean_radius_km": 1188.3,
+      "mass_1e18_kg": 13024.6,
+      "bulk_density_g_cm3": 1.853,
+      "sidereal_rotation_period_days": -6.3872,
+      "sidereal_orbital_period_years": 247.92065,
+      "uncertainties": {
+        "equatorial_radius_km": 1.6,
+        "mean_radius_km": 1.6,
+        "mass_1e18_kg": 6.0,
+        "bulk_density_g_cm3": 0.004
+      },
+      "visual_magnitude_v_1_0": -1.0,
+      "geometric_albedo": 0.3,
+      "equatorial_gravity_m_s2": 0.62,
+      "escape_velocity_km_s": 1.21
+    },
+    {
+      "name": "Eris",
+      "iau_classification": "dwarf planet",
+      "equatorial_radius_km": 1200,
+      "mean_radius_km": 1200,
+      "mass_1e18_kg": 16600,
+      "bulk_density_g_cm3": 2.3,
+      "sidereal_rotation_period_days": 1.079,
+      "sidereal_orbital_period_years": 557.56,
+      "uncertainties": {
+        "equatorial_radius_km": 50,
+        "mean_radius_km": 50,
+        "mass_1e18_kg": 200,
+        "bulk_density_g_cm3": 0.3
+      },
+      "visual_magnitude_v_1_0": -1.1,
+      "geometric_albedo": 0.84,
+      "equatorial_gravity_m_s2": 0.77,
+      "escape_velocity_km_s": 1.36
+    },
+    {
+      "name": "Makemake",
+      "iau_classification": "dwarf planet",
+      "equatorial_radius_km": 717,
+      "mean_radius_km": 714,
+      "mass_1e18_kg": 3100,
+      "bulk_density_g_cm3": 2.1,
+      "sidereal_rotation_period_days": 0.937,
+      "sidereal_orbital_period_years": 307.54,
+      "uncertainties": {
+        "equatorial_radius_km": 7,
+        "mean_radius_km": 7,
+        "geometric_albedo": 0.02
+      },
+      "visual_magnitude_v_1_0": -0.2,
+      "geometric_albedo": 0.81,
+      "equatorial_gravity_m_s2": 0.4,
+      "escape_velocity_km_s": 0.76
+    },
+    {
+      "name": "Haumea",
+      "iau_classification": "dwarf planet",
+      "equatorial_radius_km": 870,
+      "mean_radius_km": 715,
+      "mass_1e18_kg": 4006,
+      "bulk_density_g_cm3": 2.6,
+      "sidereal_rotation_period_days": 0.1631,
+      "sidereal_orbital_period_years": 284.81,
+      "uncertainties": {
+        "mass_1e18_kg": 40
+      },
+      "visual_magnitude_v_1_0": 0.2,
+      "geometric_albedo": 0.72,
+      "equatorial_gravity_m_s2": 0.35,
+      "escape_velocity_km_s": 0.78
+    }
+  ],
+  "limitations": [
+    "Values follow the cited JPL table and its underlying references; consult the live source for updates.",
+    "Uncertainty fields are included only where explicitly published in the JPL table; absent uncertainty is not zero.",
+    "Sidereal orbital period and sidereal rotation period are different quantities.",
+    "Physical values do not establish astrological meanings or predictive validity.",
+    "This is a reference table, not a planet position at a birth instant.",
+    "Some dwarf-planet values have substantially larger uncertainties than the eight planets.",
+    "V(1,0) is a defined visual-magnitude parameter at 1 au from both Sun and observer; it is not apparent magnitude from Earth."
+  ],
+  "data_note": "Uncertainty fields are populated only where the JPL table publishes an explicit uncertainty; omitted fields should not be read as zero uncertainty.",
+  "uncertainty_policy": "Only explicit ± values shown in the live JPL table are stored in each object's uncertainties object. The table's asterisk marks derived values and uncertainty from referenced values; no asterisked output parameter is assigned an invented uncertainty."
+}

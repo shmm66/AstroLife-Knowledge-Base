@@ -1,18 +1,25 @@
 # Privacy and Learning Feedback
 
-## Default behaviour
-- The agent works locally. It does not send birth data, names, chart positions, relationship details or report text to a remote AI provider.
-- Library synchronization downloads public, versioned content only.
-- Feedback is disabled unless the user chooses to rate a section.
+## Current application behaviour
+- The knowledge agent and relevance model run locally.
+- Library synchronization downloads public, versioned files from the AstroLife GitHub repository.
+- The application resolves the current public commit SHA and downloads files from that immutable commit.
+- The application does not upload names, date/time/place of birth, chart positions, relationship data, prompts, reports or feedback to GitHub or a remote AI service.
+- No hosted AI API key is required.
 
-## Local learning
-- An optional rating (useful / not useful) may update the user's local retrieval weights.
-- The training record must contain only a knowledge-card ID, query category, language, rating and a coarse feature vector.
-- Never include raw query text, date/time/place of birth, profile name, chart, relationship details or generated report text.
-- Local feedback stays on the device by default.
+## Training data
+- The public ranker is trained only on maintainer-authored relevance judgements and public knowledge cards.
+- No private chart or personal profile data is used to create the public dataset.
+- The current desktop UI does not implement a user feedback collection, model update or contribution upload flow.
+- Do not state that the application learns from live users. That feature is not currently implemented.
 
-## Sharing training examples
-A separate, explicit export action may package anonymized retrieval labels for a contribution. The user must preview and approve the file before upload. A contribution is never uploaded automatically.
+## Future user contribution design
+If a feedback contribution feature is implemented later, it must be opt-in and separate from normal synchronization. It must:
+1. show a preview of every field before export;
+2. include only a card ID, broad topic, language, relevance rating and minimal non-identifying features;
+3. exclude raw query text, date/time/place of birth, profile identifiers, chart contents, relationship details and generated reports;
+4. require a separate explicit user approval before any upload;
+5. keep raw feedback local by default.
 
 ## Data minimization
-No user-specific information is required to read the public library. Do not use user chart data to expand the public knowledge base. New content comes from licensed/public sources and reviewed editorial contributions.
+No user-specific information is required to read the public library. Do not use personal chart data to expand the public knowledge base. Public additions come from licensed sources and reviewed editorial contributions.

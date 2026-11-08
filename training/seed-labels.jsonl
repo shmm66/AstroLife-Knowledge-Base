@@ -1,80 +1,168 @@
-{"query":"در رابطه چه چیزی برای محبت، احترام و شناخت تفاوت‌ها مهم است؟","language":"fa","topic":"relationships","entry_id":"fa.planet.venus","relevant":1}
-{"query":"در رابطه چه چیزی برای محبت، احترام و شناخت تفاوت‌ها مهم است؟","language":"fa","topic":"relationships","entry_id":"fa.relationship.synastry","relevant":1}
-{"query":"در رابطه چه چیزی برای محبت، احترام و شناخت تفاوت‌ها مهم است؟","language":"fa","topic":"relationships","entry_id":"fa.planet.mars","relevant":1}
-{"query":"در رابطه چه چیزی برای محبت، احترام و شناخت تفاوت‌ها مهم است؟","language":"fa","topic":"relationships","entry_id":"fa.house.10","relevant":0}
-{"query":"در رابطه چه چیزی برای محبت، احترام و شناخت تفاوت‌ها مهم است؟","language":"fa","topic":"relationships","entry_id":"fa.planet.jupiter","relevant":0}
-{"query":"احساسات، آرامش درونی و نیاز به امنیت را توضیح بده","language":"fa","topic":"security","entry_id":"fa.planet.moon","relevant":1}
-{"query":"احساسات، آرامش درونی و نیاز به امنیت را توضیح بده","language":"fa","topic":"security","entry_id":"fa.house.4","relevant":1}
-{"query":"احساسات، آرامش درونی و نیاز به امنیت را توضیح بده","language":"fa","topic":"security","entry_id":"fa.house.8","relevant":0}
-{"query":"احساسات، آرامش درونی و نیاز به امنیت را توضیح بده","language":"fa","topic":"security","entry_id":"fa.planet.mars","relevant":0}
-{"query":"احساسات، آرامش درونی و نیاز به امنیت را توضیح بده","language":"fa","topic":"security","entry_id":"fa.planet.saturn","relevant":0}
-{"query":"درآمد، خرج، منابع شخصی و پول را توضیح بده","language":"fa","topic":"finance","entry_id":"fa.house.2","relevant":1}
-{"query":"درآمد، خرج، منابع شخصی و پول را توضیح بده","language":"fa","topic":"finance","entry_id":"fa.house.8","relevant":1}
-{"query":"درآمد، خرج، منابع شخصی و پول را توضیح بده","language":"fa","topic":"finance","entry_id":"fa.house.10","relevant":0}
-{"query":"درآمد، خرج، منابع شخصی و پول را توضیح بده","language":"fa","topic":"finance","entry_id":"fa.planet.moon","relevant":0}
-{"query":"درآمد، خرج، منابع شخصی و پول را توضیح بده","language":"fa","topic":"finance","entry_id":"fa.planet.venus","relevant":0}
-{"query":"کار، شغل، مسئولیت و مسیر حرفه‌ای من","language":"fa","topic":"career","entry_id":"fa.house.10","relevant":1}
-{"query":"کار، شغل، مسئولیت و مسیر حرفه‌ای من","language":"fa","topic":"career","entry_id":"fa.house.6","relevant":1}
-{"query":"کار، شغل، مسئولیت و مسیر حرفه‌ای من","language":"fa","topic":"career","entry_id":"fa.house.11","relevant":1}
-{"query":"کار، شغل، مسئولیت و مسیر حرفه‌ای من","language":"fa","topic":"career","entry_id":"fa.house.7","relevant":0}
-{"query":"کار، شغل، مسئولیت و مسیر حرفه‌ای من","language":"fa","topic":"career","entry_id":"fa.planet.moon","relevant":0}
-{"query":"عصبانیت، اختلاف، اقدام و مرزهای شخصی","language":"fa","topic":"conflict","entry_id":"fa.planet.mars","relevant":1}
-{"query":"عصبانیت، اختلاف، اقدام و مرزهای شخصی","language":"fa","topic":"conflict","entry_id":"fa.aspect.square-opposition","relevant":1}
-{"query":"عصبانیت، اختلاف، اقدام و مرزهای شخصی","language":"fa","topic":"conflict","entry_id":"fa.planet.venus","relevant":0}
-{"query":"عصبانیت، اختلاف، اقدام و مرزهای شخصی","language":"fa","topic":"conflict","entry_id":"fa.house.2","relevant":0}
-{"query":"عصبانیت، اختلاف، اقدام و مرزهای شخصی","language":"fa","topic":"conflict","entry_id":"fa.planet.jupiter","relevant":0}
-{"query":"گذر سیارات و موضوع‌هایی که در یک بازه باید بررسی کنم","language":"fa","topic":"forecast","entry_id":"fa.forecast.transit","relevant":1}
-{"query":"گذر سیارات و موضوع‌هایی که در یک بازه باید بررسی کنم","language":"fa","topic":"forecast","entry_id":"fa.planet.saturn","relevant":1}
-{"query":"گذر سیارات و موضوع‌هایی که در یک بازه باید بررسی کنم","language":"fa","topic":"forecast","entry_id":"fa.research.boundary","relevant":0}
-{"query":"گذر سیارات و موضوع‌هایی که در یک بازه باید بررسی کنم","language":"fa","topic":"forecast","entry_id":"fa.house.4","relevant":0}
-{"query":"گذر سیارات و موضوع‌هایی که در یک بازه باید بررسی کنم","language":"fa","topic":"forecast","entry_id":"fa.planet.mercury","relevant":0}
-{"query":"فکر کردن، حرف زدن، نوشتن و یادگیری","language":"fa","topic":"learning","entry_id":"fa.planet.mercury","relevant":1}
-{"query":"فکر کردن، حرف زدن، نوشتن و یادگیری","language":"fa","topic":"learning","entry_id":"fa.planet.jupiter","relevant":1}
-{"query":"فکر کردن، حرف زدن، نوشتن و یادگیری","language":"fa","topic":"learning","entry_id":"fa.planet.mars","relevant":0}
-{"query":"فکر کردن، حرف زدن، نوشتن و یادگیری","language":"fa","topic":"learning","entry_id":"fa.house.8","relevant":0}
-{"query":"فکر کردن، حرف زدن، نوشتن و یادگیری","language":"fa","topic":"learning","entry_id":"fa.aspect.square-opposition","relevant":0}
-{"query":"آیا طالع‌بینی از نظر علمی شخصیت یا آینده را اثبات می‌کند؟","language":"fa","topic":"science","entry_id":"fa.research.boundary","relevant":1}
-{"query":"آیا طالع‌بینی از نظر علمی شخصیت یا آینده را اثبات می‌کند؟","language":"fa","topic":"science","entry_id":"fa.method.unknown-time","relevant":0}
-{"query":"آیا طالع‌بینی از نظر علمی شخصیت یا آینده را اثبات می‌کند؟","language":"fa","topic":"science","entry_id":"fa.planet.sun","relevant":0}
-{"query":"آیا طالع‌بینی از نظر علمی شخصیت یا آینده را اثبات می‌کند؟","language":"fa","topic":"science","entry_id":"fa.planet.moon","relevant":0}
-{"query":"آیا طالع‌بینی از نظر علمی شخصیت یا آینده را اثبات می‌کند؟","language":"fa","topic":"science","entry_id":"fa.relationship.synastry","relevant":0}
-{"query":"How do affection, respect and differences show up in a relationship?","language":"en","topic":"relationships","entry_id":"en.planet.venus","relevant":1}
-{"query":"How do affection, respect and differences show up in a relationship?","language":"en","topic":"relationships","entry_id":"en.relationship.synastry","relevant":1}
-{"query":"How do affection, respect and differences show up in a relationship?","language":"en","topic":"relationships","entry_id":"en.planet.mars","relevant":1}
-{"query":"How do affection, respect and differences show up in a relationship?","language":"en","topic":"relationships","entry_id":"en.house.10","relevant":0}
-{"query":"How do affection, respect and differences show up in a relationship?","language":"en","topic":"relationships","entry_id":"en.planet.jupiter","relevant":0}
-{"query":"Explain emotions, inner calm and the need for security","language":"en","topic":"security","entry_id":"en.planet.moon","relevant":1}
-{"query":"Explain emotions, inner calm and the need for security","language":"en","topic":"security","entry_id":"en.house.4","relevant":1}
-{"query":"Explain emotions, inner calm and the need for security","language":"en","topic":"security","entry_id":"en.house.8","relevant":0}
-{"query":"Explain emotions, inner calm and the need for security","language":"en","topic":"security","entry_id":"en.planet.mars","relevant":0}
-{"query":"Explain emotions, inner calm and the need for security","language":"en","topic":"security","entry_id":"en.planet.saturn","relevant":0}
-{"query":"Explain income, spending, personal resources and money","language":"en","topic":"finance","entry_id":"en.house.2","relevant":1}
-{"query":"Explain income, spending, personal resources and money","language":"en","topic":"finance","entry_id":"en.house.8","relevant":1}
-{"query":"Explain income, spending, personal resources and money","language":"en","topic":"finance","entry_id":"en.house.10","relevant":0}
-{"query":"Explain income, spending, personal resources and money","language":"en","topic":"finance","entry_id":"en.planet.moon","relevant":0}
-{"query":"Explain income, spending, personal resources and money","language":"en","topic":"finance","entry_id":"en.planet.venus","relevant":0}
-{"query":"Work, career, responsibility and professional direction","language":"en","topic":"career","entry_id":"en.house.10","relevant":1}
-{"query":"Work, career, responsibility and professional direction","language":"en","topic":"career","entry_id":"en.house.6","relevant":1}
-{"query":"Work, career, responsibility and professional direction","language":"en","topic":"career","entry_id":"en.house.11","relevant":1}
-{"query":"Work, career, responsibility and professional direction","language":"en","topic":"career","entry_id":"en.house.7","relevant":0}
-{"query":"Work, career, responsibility and professional direction","language":"en","topic":"career","entry_id":"en.planet.moon","relevant":0}
-{"query":"Anger, disagreement, action and personal boundaries","language":"en","topic":"conflict","entry_id":"en.planet.mars","relevant":1}
-{"query":"Anger, disagreement, action and personal boundaries","language":"en","topic":"conflict","entry_id":"en.aspect.square-opposition","relevant":1}
-{"query":"Anger, disagreement, action and personal boundaries","language":"en","topic":"conflict","entry_id":"en.planet.venus","relevant":0}
-{"query":"Anger, disagreement, action and personal boundaries","language":"en","topic":"conflict","entry_id":"en.house.2","relevant":0}
-{"query":"Anger, disagreement, action and personal boundaries","language":"en","topic":"conflict","entry_id":"en.planet.jupiter","relevant":0}
-{"query":"Planetary transits and themes to review during a period","language":"en","topic":"forecast","entry_id":"en.forecast.transit","relevant":1}
-{"query":"Planetary transits and themes to review during a period","language":"en","topic":"forecast","entry_id":"en.planet.saturn","relevant":1}
-{"query":"Planetary transits and themes to review during a period","language":"en","topic":"forecast","entry_id":"en.research.boundary","relevant":0}
-{"query":"Planetary transits and themes to review during a period","language":"en","topic":"forecast","entry_id":"en.house.4","relevant":0}
-{"query":"Planetary transits and themes to review during a period","language":"en","topic":"forecast","entry_id":"en.planet.mercury","relevant":0}
-{"query":"Thinking, communication, writing and learning","language":"en","topic":"learning","entry_id":"en.planet.mercury","relevant":1}
-{"query":"Thinking, communication, writing and learning","language":"en","topic":"learning","entry_id":"en.planet.jupiter","relevant":1}
-{"query":"Thinking, communication, writing and learning","language":"en","topic":"learning","entry_id":"en.planet.mars","relevant":0}
-{"query":"Thinking, communication, writing and learning","language":"en","topic":"learning","entry_id":"en.house.8","relevant":0}
-{"query":"Thinking, communication, writing and learning","language":"en","topic":"learning","entry_id":"en.aspect.square-opposition","relevant":0}
-{"query":"Does astrology scientifically prove personality or predict the future?","language":"en","topic":"science","entry_id":"en.research.boundary","relevant":1}
-{"query":"Does astrology scientifically prove personality or predict the future?","language":"en","topic":"science","entry_id":"en.method.unknown-time","relevant":0}
-{"query":"Does astrology scientifically prove personality or predict the future?","language":"en","topic":"science","entry_id":"en.planet.sun","relevant":0}
-{"query":"Does astrology scientifically prove personality or predict the future?","language":"en","topic":"science","entry_id":"en.planet.moon","relevant":0}
-{"query":"Does astrology scientifically prove personality or predict the future?","language":"en","topic":"science","entry_id":"en.relationship.synastry","relevant":0}
+{"query_group":"ephemeris","query":"افمریس چیست و موقعیت سیاره‌ها چگونه با چارچوب مختصات قابل بازتولید می‌شود؟","language":"fa","topic":"astronomy","entry_id":"fa.method.ephemeris","relevant":1}
+{"query_group":"ephemeris","query":"افمریس چیست و موقعیت سیاره‌ها چگونه با چارچوب مختصات قابل بازتولید می‌شود؟","language":"fa","topic":"astronomy","entry_id":"fa.method.coordinate-frame","relevant":1}
+{"query_group":"ephemeris","query":"افمریس چیست و موقعیت سیاره‌ها چگونه با چارچوب مختصات قابل بازتولید می‌شود؟","language":"fa","topic":"astronomy","entry_id":"fa.sign.leo","relevant":0}
+{"query_group":"ephemeris","query":"افمریس چیست و موقعیت سیاره‌ها چگونه با چارچوب مختصات قابل بازتولید می‌شود؟","language":"fa","topic":"astronomy","entry_id":"fa.planet.venus","relevant":0}
+{"query_group":"ephemeris","query":"افمریس چیست و موقعیت سیاره‌ها چگونه با چارچوب مختصات قابل بازتولید می‌شود؟","language":"fa","topic":"astronomy","entry_id":"fa.house.10","relevant":0}
+{"query_group":"ephemeris","query":"What is an ephemeris and how are planetary positions reproduced with coordinate frames?","language":"en","topic":"astronomy","entry_id":"en.method.ephemeris","relevant":1}
+{"query_group":"ephemeris","query":"What is an ephemeris and how are planetary positions reproduced with coordinate frames?","language":"en","topic":"astronomy","entry_id":"en.method.coordinate-frame","relevant":1}
+{"query_group":"ephemeris","query":"What is an ephemeris and how are planetary positions reproduced with coordinate frames?","language":"en","topic":"astronomy","entry_id":"en.sign.leo","relevant":0}
+{"query_group":"ephemeris","query":"What is an ephemeris and how are planetary positions reproduced with coordinate frames?","language":"en","topic":"astronomy","entry_id":"en.planet.venus","relevant":0}
+{"query_group":"ephemeris","query":"What is an ephemeris and how are planetary positions reproduced with coordinate frames?","language":"en","topic":"astronomy","entry_id":"en.house.10","relevant":0}
+{"query_group":"birth-time","query":"برای محاسبه چارت، ساعت تولد و منطقه زمانی تاریخی را چطور درست تبدیل کنیم؟","language":"fa","topic":"calculation","entry_id":"fa.method.time-scales","relevant":1}
+{"query_group":"birth-time","query":"برای محاسبه چارت، ساعت تولد و منطقه زمانی تاریخی را چطور درست تبدیل کنیم؟","language":"fa","topic":"calculation","entry_id":"fa.method.birth-data-quality","relevant":1}
+{"query_group":"birth-time","query":"برای محاسبه چارت، ساعت تولد و منطقه زمانی تاریخی را چطور درست تبدیل کنیم؟","language":"fa","topic":"calculation","entry_id":"fa.method.chart-angles","relevant":1}
+{"query_group":"birth-time","query":"برای محاسبه چارت، ساعت تولد و منطقه زمانی تاریخی را چطور درست تبدیل کنیم؟","language":"fa","topic":"calculation","entry_id":"fa.sign.aries","relevant":0}
+{"query_group":"birth-time","query":"برای محاسبه چارت، ساعت تولد و منطقه زمانی تاریخی را چطور درست تبدیل کنیم؟","language":"fa","topic":"calculation","entry_id":"fa.planet.jupiter","relevant":0}
+{"query_group":"birth-time","query":"How should a birth time and historical time zone be converted for a chart calculation?","language":"en","topic":"calculation","entry_id":"en.method.time-scales","relevant":1}
+{"query_group":"birth-time","query":"How should a birth time and historical time zone be converted for a chart calculation?","language":"en","topic":"calculation","entry_id":"en.method.birth-data-quality","relevant":1}
+{"query_group":"birth-time","query":"How should a birth time and historical time zone be converted for a chart calculation?","language":"en","topic":"calculation","entry_id":"en.method.chart-angles","relevant":1}
+{"query_group":"birth-time","query":"How should a birth time and historical time zone be converted for a chart calculation?","language":"en","topic":"calculation","entry_id":"en.sign.aries","relevant":0}
+{"query_group":"birth-time","query":"How should a birth time and historical time zone be converted for a chart calculation?","language":"en","topic":"calculation","entry_id":"en.planet.jupiter","relevant":0}
+{"query_group":"physical-parameters","query":"جرم، شعاع، چگالی و دوره مداری و چرخش سیاره‌ها چه تفاوتی دارند؟","language":"fa","topic":"astronomy","entry_id":"fa.method.orbital-rotation-periods","relevant":1}
+{"query_group":"physical-parameters","query":"جرم، شعاع، چگالی و دوره مداری و چرخش سیاره‌ها چه تفاوتی دارند؟","language":"fa","topic":"astronomy","entry_id":"fa.method.uncertainty","relevant":1}
+{"query_group":"physical-parameters","query":"جرم، شعاع، چگالی و دوره مداری و چرخش سیاره‌ها چه تفاوتی دارند؟","language":"fa","topic":"astronomy","entry_id":"fa.planet.uranus","relevant":0}
+{"query_group":"physical-parameters","query":"جرم، شعاع، چگالی و دوره مداری و چرخش سیاره‌ها چه تفاوتی دارند؟","language":"fa","topic":"astronomy","entry_id":"fa.sign.taurus","relevant":0}
+{"query_group":"physical-parameters","query":"جرم، شعاع، چگالی و دوره مداری و چرخش سیاره‌ها چه تفاوتی دارند؟","language":"fa","topic":"astronomy","entry_id":"fa.house.2","relevant":0}
+{"query_group":"physical-parameters","query":"What are the differences between planetary mass, radius, density, orbital period and rotation period?","language":"en","topic":"astronomy","entry_id":"en.method.orbital-rotation-periods","relevant":1}
+{"query_group":"physical-parameters","query":"What are the differences between planetary mass, radius, density, orbital period and rotation period?","language":"en","topic":"astronomy","entry_id":"en.method.uncertainty","relevant":1}
+{"query_group":"physical-parameters","query":"What are the differences between planetary mass, radius, density, orbital period and rotation period?","language":"en","topic":"astronomy","entry_id":"en.planet.uranus","relevant":0}
+{"query_group":"physical-parameters","query":"What are the differences between planetary mass, radius, density, orbital period and rotation period?","language":"en","topic":"astronomy","entry_id":"en.sign.taurus","relevant":0}
+{"query_group":"physical-parameters","query":"What are the differences between planetary mass, radius, density, orbital period and rotation period?","language":"en","topic":"astronomy","entry_id":"en.house.2","relevant":0}
+{"query_group":"retrograde","query":"حرکت رجعی سیاره از نظر نجومی چیست و چرا ظاهری است؟","language":"fa","topic":"astronomy","entry_id":"fa.method.apparent-retrograde","relevant":1}
+{"query_group":"retrograde","query":"حرکت رجعی سیاره از نظر نجومی چیست و چرا ظاهری است؟","language":"fa","topic":"astronomy","entry_id":"fa.method.ephemeris","relevant":1}
+{"query_group":"retrograde","query":"حرکت رجعی سیاره از نظر نجومی چیست و چرا ظاهری است؟","language":"fa","topic":"astronomy","entry_id":"fa.planet.mars","relevant":0}
+{"query_group":"retrograde","query":"حرکت رجعی سیاره از نظر نجومی چیست و چرا ظاهری است؟","language":"fa","topic":"astronomy","entry_id":"fa.sign.scorpio","relevant":0}
+{"query_group":"retrograde","query":"حرکت رجعی سیاره از نظر نجومی چیست و چرا ظاهری است؟","language":"fa","topic":"astronomy","entry_id":"fa.house.5","relevant":0}
+{"query_group":"retrograde","query":"What is apparent planetary retrograde motion and why is it an observational effect?","language":"en","topic":"astronomy","entry_id":"en.method.apparent-retrograde","relevant":1}
+{"query_group":"retrograde","query":"What is apparent planetary retrograde motion and why is it an observational effect?","language":"en","topic":"astronomy","entry_id":"en.method.ephemeris","relevant":1}
+{"query_group":"retrograde","query":"What is apparent planetary retrograde motion and why is it an observational effect?","language":"en","topic":"astronomy","entry_id":"en.planet.mars","relevant":0}
+{"query_group":"retrograde","query":"What is apparent planetary retrograde motion and why is it an observational effect?","language":"en","topic":"astronomy","entry_id":"en.sign.scorpio","relevant":0}
+{"query_group":"retrograde","query":"What is apparent planetary retrograde motion and why is it an observational effect?","language":"en","topic":"astronomy","entry_id":"en.house.5","relevant":0}
+{"query_group":"zodiac-reference","query":"تفاوت زودیاک گرمسیری و ستاره‌ای و برج‌ها با صورت‌های فلکی چیست؟","language":"fa","topic":"signs","entry_id":"fa.method.zodiac-reference","relevant":1}
+{"query_group":"zodiac-reference","query":"تفاوت زودیاک گرمسیری و ستاره‌ای و برج‌ها با صورت‌های فلکی چیست؟","language":"fa","topic":"signs","entry_id":"fa.method.constellations-signs","relevant":1}
+{"query_group":"zodiac-reference","query":"تفاوت زودیاک گرمسیری و ستاره‌ای و برج‌ها با صورت‌های فلکی چیست؟","language":"fa","topic":"signs","entry_id":"fa.sign.cancer","relevant":0}
+{"query_group":"zodiac-reference","query":"تفاوت زودیاک گرمسیری و ستاره‌ای و برج‌ها با صورت‌های فلکی چیست؟","language":"fa","topic":"signs","entry_id":"fa.planet.pluto","relevant":0}
+{"query_group":"zodiac-reference","query":"تفاوت زودیاک گرمسیری و ستاره‌ای و برج‌ها با صورت‌های فلکی چیست؟","language":"fa","topic":"signs","entry_id":"fa.house.1","relevant":0}
+{"query_group":"zodiac-reference","query":"What is the difference between tropical and sidereal zodiac systems and astronomical constellations?","language":"en","topic":"signs","entry_id":"en.method.zodiac-reference","relevant":1}
+{"query_group":"zodiac-reference","query":"What is the difference between tropical and sidereal zodiac systems and astronomical constellations?","language":"en","topic":"signs","entry_id":"en.method.constellations-signs","relevant":1}
+{"query_group":"zodiac-reference","query":"What is the difference between tropical and sidereal zodiac systems and astronomical constellations?","language":"en","topic":"signs","entry_id":"en.sign.cancer","relevant":0}
+{"query_group":"zodiac-reference","query":"What is the difference between tropical and sidereal zodiac systems and astronomical constellations?","language":"en","topic":"signs","entry_id":"en.planet.pluto","relevant":0}
+{"query_group":"zodiac-reference","query":"What is the difference between tropical and sidereal zodiac systems and astronomical constellations?","language":"en","topic":"signs","entry_id":"en.house.1","relevant":0}
+{"query_group":"babylonian-history","query":"تاریخ نجوم و طالع‌بینی بابلی و انتقال متون بطلمیوس چه بوده است؟","language":"fa","topic":"history","entry_id":"fa.history.babylonian-astronomy","relevant":1}
+{"query_group":"babylonian-history","query":"تاریخ نجوم و طالع‌بینی بابلی و انتقال متون بطلمیوس چه بوده است؟","language":"fa","topic":"history","entry_id":"fa.history.tetrabiblos","relevant":1}
+{"query_group":"babylonian-history","query":"تاریخ نجوم و طالع‌بینی بابلی و انتقال متون بطلمیوس چه بوده است؟","language":"fa","topic":"history","entry_id":"fa.method.ephemeris","relevant":0}
+{"query_group":"babylonian-history","query":"تاریخ نجوم و طالع‌بینی بابلی و انتقال متون بطلمیوس چه بوده است؟","language":"fa","topic":"history","entry_id":"fa.sign.aries","relevant":0}
+{"query_group":"babylonian-history","query":"تاریخ نجوم و طالع‌بینی بابلی و انتقال متون بطلمیوس چه بوده است؟","language":"fa","topic":"history","entry_id":"fa.planet.sun","relevant":0}
+{"query_group":"babylonian-history","query":"What is the history of Babylonian astronomy and the transmission of Ptolemy's Tetrabiblos?","language":"en","topic":"history","entry_id":"en.history.babylonian-astronomy","relevant":1}
+{"query_group":"babylonian-history","query":"What is the history of Babylonian astronomy and the transmission of Ptolemy's Tetrabiblos?","language":"en","topic":"history","entry_id":"en.history.tetrabiblos","relevant":1}
+{"query_group":"babylonian-history","query":"What is the history of Babylonian astronomy and the transmission of Ptolemy's Tetrabiblos?","language":"en","topic":"history","entry_id":"en.method.ephemeris","relevant":0}
+{"query_group":"babylonian-history","query":"What is the history of Babylonian astronomy and the transmission of Ptolemy's Tetrabiblos?","language":"en","topic":"history","entry_id":"en.sign.aries","relevant":0}
+{"query_group":"babylonian-history","query":"What is the history of Babylonian astronomy and the transmission of Ptolemy's Tetrabiblos?","language":"en","topic":"history","entry_id":"en.planet.sun","relevant":0}
+{"query_group":"double-blind-research","query":"پژوهش‌های دوسوکور چه چیزی درباره ادعای پیش‌بینی شخصیت با چارت نشان داده‌اند؟","language":"fa","topic":"research","entry_id":"fa.research.double-blind","relevant":1}
+{"query_group":"double-blind-research","query":"پژوهش‌های دوسوکور چه چیزی درباره ادعای پیش‌بینی شخصیت با چارت نشان داده‌اند؟","language":"fa","topic":"research","entry_id":"fa.research.testable-claims","relevant":1}
+{"query_group":"double-blind-research","query":"پژوهش‌های دوسوکور چه چیزی درباره ادعای پیش‌بینی شخصیت با چارت نشان داده‌اند؟","language":"fa","topic":"research","entry_id":"fa.research.boundary","relevant":1}
+{"query_group":"double-blind-research","query":"پژوهش‌های دوسوکور چه چیزی درباره ادعای پیش‌بینی شخصیت با چارت نشان داده‌اند؟","language":"fa","topic":"research","entry_id":"fa.planet.sun","relevant":0}
+{"query_group":"double-blind-research","query":"پژوهش‌های دوسوکور چه چیزی درباره ادعای پیش‌بینی شخصیت با چارت نشان داده‌اند؟","language":"fa","topic":"research","entry_id":"fa.sign.leo","relevant":0}
+{"query_group":"double-blind-research","query":"What have double-blind studies tested about matching personality to natal charts?","language":"en","topic":"research","entry_id":"en.research.double-blind","relevant":1}
+{"query_group":"double-blind-research","query":"What have double-blind studies tested about matching personality to natal charts?","language":"en","topic":"research","entry_id":"en.research.testable-claims","relevant":1}
+{"query_group":"double-blind-research","query":"What have double-blind studies tested about matching personality to natal charts?","language":"en","topic":"research","entry_id":"en.research.boundary","relevant":1}
+{"query_group":"double-blind-research","query":"What have double-blind studies tested about matching personality to natal charts?","language":"en","topic":"research","entry_id":"en.planet.sun","relevant":0}
+{"query_group":"double-blind-research","query":"What have double-blind studies tested about matching personality to natal charts?","language":"en","topic":"research","entry_id":"en.sign.leo","relevant":0}
+{"query_group":"wellbeing-research","query":"آیا برج خورشیدی با بهزیستی و ویژگی‌های شخصیت رابطه تجربی دارد؟","language":"fa","topic":"research","entry_id":"fa.research.wellbeing-2024","relevant":1}
+{"query_group":"wellbeing-research","query":"آیا برج خورشیدی با بهزیستی و ویژگی‌های شخصیت رابطه تجربی دارد؟","language":"fa","topic":"research","entry_id":"fa.research.zodiac-personality","relevant":1}
+{"query_group":"wellbeing-research","query":"آیا برج خورشیدی با بهزیستی و ویژگی‌های شخصیت رابطه تجربی دارد؟","language":"fa","topic":"research","entry_id":"fa.research.boundary","relevant":1}
+{"query_group":"wellbeing-research","query":"آیا برج خورشیدی با بهزیستی و ویژگی‌های شخصیت رابطه تجربی دارد؟","language":"fa","topic":"research","entry_id":"fa.sign.aries","relevant":0}
+{"query_group":"wellbeing-research","query":"آیا برج خورشیدی با بهزیستی و ویژگی‌های شخصیت رابطه تجربی دارد؟","language":"fa","topic":"research","entry_id":"fa.planet.moon","relevant":0}
+{"query_group":"wellbeing-research","query":"Is there empirical evidence that Sun signs relate to well-being or personality traits?","language":"en","topic":"research","entry_id":"en.research.wellbeing-2024","relevant":1}
+{"query_group":"wellbeing-research","query":"Is there empirical evidence that Sun signs relate to well-being or personality traits?","language":"en","topic":"research","entry_id":"en.research.zodiac-personality","relevant":1}
+{"query_group":"wellbeing-research","query":"Is there empirical evidence that Sun signs relate to well-being or personality traits?","language":"en","topic":"research","entry_id":"en.research.boundary","relevant":1}
+{"query_group":"wellbeing-research","query":"Is there empirical evidence that Sun signs relate to well-being or personality traits?","language":"en","topic":"research","entry_id":"en.sign.aries","relevant":0}
+{"query_group":"wellbeing-research","query":"Is there empirical evidence that Sun signs relate to well-being or personality traits?","language":"en","topic":"research","entry_id":"en.planet.moon","relevant":0}
+{"query_group":"compatibility-research","query":"مطالعه سوئد درباره سازگاری نجومی، ازدواج و طلاق چه نتیجه‌ای داشت؟","language":"fa","topic":"relationships","entry_id":"fa.research.compatibility-2020","relevant":1}
+{"query_group":"compatibility-research","query":"مطالعه سوئد درباره سازگاری نجومی، ازدواج و طلاق چه نتیجه‌ای داشت؟","language":"fa","topic":"relationships","entry_id":"fa.relationship.synastry","relevant":1}
+{"query_group":"compatibility-research","query":"مطالعه سوئد درباره سازگاری نجومی، ازدواج و طلاق چه نتیجه‌ای داشت؟","language":"fa","topic":"relationships","entry_id":"fa.house.10","relevant":0}
+{"query_group":"compatibility-research","query":"مطالعه سوئد درباره سازگاری نجومی، ازدواج و طلاق چه نتیجه‌ای داشت؟","language":"fa","topic":"relationships","entry_id":"fa.planet.venus","relevant":0}
+{"query_group":"compatibility-research","query":"مطالعه سوئد درباره سازگاری نجومی، ازدواج و طلاق چه نتیجه‌ای داشت؟","language":"fa","topic":"relationships","entry_id":"fa.sign.libra","relevant":0}
+{"query_group":"compatibility-research","query":"What did the Swedish register study find about astrological compatibility, marriage and divorce?","language":"en","topic":"relationships","entry_id":"en.research.compatibility-2020","relevant":1}
+{"query_group":"compatibility-research","query":"What did the Swedish register study find about astrological compatibility, marriage and divorce?","language":"en","topic":"relationships","entry_id":"en.relationship.synastry","relevant":1}
+{"query_group":"compatibility-research","query":"What did the Swedish register study find about astrological compatibility, marriage and divorce?","language":"en","topic":"relationships","entry_id":"en.house.10","relevant":0}
+{"query_group":"compatibility-research","query":"What did the Swedish register study find about astrological compatibility, marriage and divorce?","language":"en","topic":"relationships","entry_id":"en.planet.venus","relevant":0}
+{"query_group":"compatibility-research","query":"What did the Swedish register study find about astrological compatibility, marriage and divorce?","language":"en","topic":"relationships","entry_id":"en.sign.libra","relevant":0}
+{"query_group":"leo-sign","query":"در سنت طالع‌بینی، برج اسد با چه موضوعات نمادینی پیوند دارد؟","language":"fa","topic":"signs","entry_id":"fa.sign.leo","relevant":1}
+{"query_group":"leo-sign","query":"در سنت طالع‌بینی، برج اسد با چه موضوعات نمادینی پیوند دارد؟","language":"fa","topic":"signs","entry_id":"fa.sign.aries","relevant":0}
+{"query_group":"leo-sign","query":"در سنت طالع‌بینی، برج اسد با چه موضوعات نمادینی پیوند دارد؟","language":"fa","topic":"signs","entry_id":"fa.sign.scorpio","relevant":0}
+{"query_group":"leo-sign","query":"در سنت طالع‌بینی، برج اسد با چه موضوعات نمادینی پیوند دارد؟","language":"fa","topic":"signs","entry_id":"fa.method.zodiac-reference","relevant":0}
+{"query_group":"leo-sign","query":"در سنت طالع‌بینی، برج اسد با چه موضوعات نمادینی پیوند دارد؟","language":"fa","topic":"signs","entry_id":"fa.planet.sun","relevant":0}
+{"query_group":"leo-sign","query":"What symbolic themes are traditionally associated with Leo in astrology?","language":"en","topic":"signs","entry_id":"en.sign.leo","relevant":1}
+{"query_group":"leo-sign","query":"What symbolic themes are traditionally associated with Leo in astrology?","language":"en","topic":"signs","entry_id":"en.sign.aries","relevant":0}
+{"query_group":"leo-sign","query":"What symbolic themes are traditionally associated with Leo in astrology?","language":"en","topic":"signs","entry_id":"en.sign.scorpio","relevant":0}
+{"query_group":"leo-sign","query":"What symbolic themes are traditionally associated with Leo in astrology?","language":"en","topic":"signs","entry_id":"en.method.zodiac-reference","relevant":0}
+{"query_group":"leo-sign","query":"What symbolic themes are traditionally associated with Leo in astrology?","language":"en","topic":"signs","entry_id":"en.planet.sun","relevant":0}
+{"query_group":"house-systems","query":"سامانه‌های پلَسیدوس و خانه کامل چگونه خانه‌های چارت را تقسیم می‌کنند؟","language":"fa","topic":"calculation","entry_id":"fa.method.house-systems","relevant":1}
+{"query_group":"house-systems","query":"سامانه‌های پلَسیدوس و خانه کامل چگونه خانه‌های چارت را تقسیم می‌کنند؟","language":"fa","topic":"calculation","entry_id":"fa.method.chart-angles","relevant":1}
+{"query_group":"house-systems","query":"سامانه‌های پلَسیدوس و خانه کامل چگونه خانه‌های چارت را تقسیم می‌کنند؟","language":"fa","topic":"calculation","entry_id":"fa.house.1","relevant":0}
+{"query_group":"house-systems","query":"سامانه‌های پلَسیدوس و خانه کامل چگونه خانه‌های چارت را تقسیم می‌کنند؟","language":"fa","topic":"calculation","entry_id":"fa.house.2","relevant":0}
+{"query_group":"house-systems","query":"سامانه‌های پلَسیدوس و خانه کامل چگونه خانه‌های چارت را تقسیم می‌کنند؟","language":"fa","topic":"calculation","entry_id":"fa.planet.saturn","relevant":0}
+{"query_group":"house-systems","query":"How do Placidus and Whole Sign systems divide astrological houses?","language":"en","topic":"calculation","entry_id":"en.method.house-systems","relevant":1}
+{"query_group":"house-systems","query":"How do Placidus and Whole Sign systems divide astrological houses?","language":"en","topic":"calculation","entry_id":"en.method.chart-angles","relevant":1}
+{"query_group":"house-systems","query":"How do Placidus and Whole Sign systems divide astrological houses?","language":"en","topic":"calculation","entry_id":"en.house.1","relevant":0}
+{"query_group":"house-systems","query":"How do Placidus and Whole Sign systems divide astrological houses?","language":"en","topic":"calculation","entry_id":"en.house.2","relevant":0}
+{"query_group":"house-systems","query":"How do Placidus and Whole Sign systems divide astrological houses?","language":"en","topic":"calculation","entry_id":"en.planet.saturn","relevant":0}
+{"query_group":"career-houses","query":"برای بررسی نمادین مسیر شغلی و کار روزمره کدام خانه‌ها مطرح می‌شوند؟","language":"fa","topic":"career","entry_id":"fa.house.10","relevant":1}
+{"query_group":"career-houses","query":"برای بررسی نمادین مسیر شغلی و کار روزمره کدام خانه‌ها مطرح می‌شوند؟","language":"fa","topic":"career","entry_id":"fa.house.6","relevant":1}
+{"query_group":"career-houses","query":"برای بررسی نمادین مسیر شغلی و کار روزمره کدام خانه‌ها مطرح می‌شوند؟","language":"fa","topic":"career","entry_id":"fa.house.11","relevant":1}
+{"query_group":"career-houses","query":"برای بررسی نمادین مسیر شغلی و کار روزمره کدام خانه‌ها مطرح می‌شوند؟","language":"fa","topic":"career","entry_id":"fa.house.7","relevant":0}
+{"query_group":"career-houses","query":"برای بررسی نمادین مسیر شغلی و کار روزمره کدام خانه‌ها مطرح می‌شوند؟","language":"fa","topic":"career","entry_id":"fa.planet.venus","relevant":0}
+{"query_group":"career-houses","query":"Which houses are traditionally discussed in symbolic readings about career and daily work?","language":"en","topic":"career","entry_id":"en.house.10","relevant":1}
+{"query_group":"career-houses","query":"Which houses are traditionally discussed in symbolic readings about career and daily work?","language":"en","topic":"career","entry_id":"en.house.6","relevant":1}
+{"query_group":"career-houses","query":"Which houses are traditionally discussed in symbolic readings about career and daily work?","language":"en","topic":"career","entry_id":"en.house.11","relevant":1}
+{"query_group":"career-houses","query":"Which houses are traditionally discussed in symbolic readings about career and daily work?","language":"en","topic":"career","entry_id":"en.house.7","relevant":0}
+{"query_group":"career-houses","query":"Which houses are traditionally discussed in symbolic readings about career and daily work?","language":"en","topic":"career","entry_id":"en.planet.venus","relevant":0}
+{"query_group":"outer-planet-symbolism","query":"در طالع‌بینی جدید نمادپردازی اورانوس نپتون و پلوتو چه تفاوت‌هایی دارد؟","language":"fa","topic":"symbolic-reflection","entry_id":"fa.planet.uranus","relevant":1}
+{"query_group":"outer-planet-symbolism","query":"در طالع‌بینی جدید نمادپردازی اورانوس نپتون و پلوتو چه تفاوت‌هایی دارد؟","language":"fa","topic":"symbolic-reflection","entry_id":"fa.planet.neptune","relevant":1}
+{"query_group":"outer-planet-symbolism","query":"در طالع‌بینی جدید نمادپردازی اورانوس نپتون و پلوتو چه تفاوت‌هایی دارد؟","language":"fa","topic":"symbolic-reflection","entry_id":"fa.planet.pluto","relevant":1}
+{"query_group":"outer-planet-symbolism","query":"در طالع‌بینی جدید نمادپردازی اورانوس نپتون و پلوتو چه تفاوت‌هایی دارد؟","language":"fa","topic":"symbolic-reflection","entry_id":"fa.planet.mercury","relevant":0}
+{"query_group":"outer-planet-symbolism","query":"در طالع‌بینی جدید نمادپردازی اورانوس نپتون و پلوتو چه تفاوت‌هایی دارد؟","language":"fa","topic":"symbolic-reflection","entry_id":"fa.house.4","relevant":0}
+{"query_group":"outer-planet-symbolism","query":"How do modern astrology traditions distinguish the symbolic themes of Uranus, Neptune and Pluto?","language":"en","topic":"symbolic-reflection","entry_id":"en.planet.uranus","relevant":1}
+{"query_group":"outer-planet-symbolism","query":"How do modern astrology traditions distinguish the symbolic themes of Uranus, Neptune and Pluto?","language":"en","topic":"symbolic-reflection","entry_id":"en.planet.neptune","relevant":1}
+{"query_group":"outer-planet-symbolism","query":"How do modern astrology traditions distinguish the symbolic themes of Uranus, Neptune and Pluto?","language":"en","topic":"symbolic-reflection","entry_id":"en.planet.pluto","relevant":1}
+{"query_group":"outer-planet-symbolism","query":"How do modern astrology traditions distinguish the symbolic themes of Uranus, Neptune and Pluto?","language":"en","topic":"symbolic-reflection","entry_id":"en.planet.mercury","relevant":0}
+{"query_group":"outer-planet-symbolism","query":"How do modern astrology traditions distinguish the symbolic themes of Uranus, Neptune and Pluto?","language":"en","topic":"symbolic-reflection","entry_id":"en.house.4","relevant":0}
+{"query_group":"transit-forecast","query":"ترانزیت سیاره‌ها در گزارش نمادین چگونه باید بدون پیشگویی قطعی توضیح داده شود؟","language":"fa","topic":"forecast","entry_id":"fa.forecast.transit","relevant":1}
+{"query_group":"transit-forecast","query":"ترانزیت سیاره‌ها در گزارش نمادین چگونه باید بدون پیشگویی قطعی توضیح داده شود؟","language":"fa","topic":"forecast","entry_id":"fa.method.evidence-layers","relevant":1}
+{"query_group":"transit-forecast","query":"ترانزیت سیاره‌ها در گزارش نمادین چگونه باید بدون پیشگویی قطعی توضیح داده شود؟","language":"fa","topic":"forecast","entry_id":"fa.research.wellbeing-2024","relevant":0}
+{"query_group":"transit-forecast","query":"ترانزیت سیاره‌ها در گزارش نمادین چگونه باید بدون پیشگویی قطعی توضیح داده شود؟","language":"fa","topic":"forecast","entry_id":"fa.sign.capricorn","relevant":0}
+{"query_group":"transit-forecast","query":"How should planetary transits be described as symbolic themes without making deterministic predictions?","language":"en","topic":"forecast","entry_id":"en.forecast.transit","relevant":1}
+{"query_group":"transit-forecast","query":"How should planetary transits be described as symbolic themes without making deterministic predictions?","language":"en","topic":"forecast","entry_id":"en.method.evidence-layers","relevant":1}
+{"query_group":"transit-forecast","query":"How should planetary transits be described as symbolic themes without making deterministic predictions?","language":"en","topic":"forecast","entry_id":"en.research.wellbeing-2024","relevant":0}
+{"query_group":"transit-forecast","query":"How should planetary transits be described as symbolic themes without making deterministic predictions?","language":"en","topic":"forecast","entry_id":"en.sign.capricorn","relevant":0}
+{"query_group":"unknown-birth-time","query":"اگر ساعت تولد نامعلوم باشد طالع صعودی و خانه‌ها چه محدودیتی دارند؟","language":"fa","topic":"calculation-limits","entry_id":"fa.method.unknown-time","relevant":1}
+{"query_group":"unknown-birth-time","query":"اگر ساعت تولد نامعلوم باشد طالع صعودی و خانه‌ها چه محدودیتی دارند؟","language":"fa","topic":"calculation-limits","entry_id":"fa.method.birth-data-quality","relevant":1}
+{"query_group":"unknown-birth-time","query":"اگر ساعت تولد نامعلوم باشد طالع صعودی و خانه‌ها چه محدودیتی دارند؟","language":"fa","topic":"calculation-limits","entry_id":"fa.method.chart-angles","relevant":1}
+{"query_group":"unknown-birth-time","query":"اگر ساعت تولد نامعلوم باشد طالع صعودی و خانه‌ها چه محدودیتی دارند؟","language":"fa","topic":"calculation-limits","entry_id":"fa.sign.pisces","relevant":0}
+{"query_group":"unknown-birth-time","query":"اگر ساعت تولد نامعلوم باشد طالع صعودی و خانه‌ها چه محدودیتی دارند؟","language":"fa","topic":"calculation-limits","entry_id":"fa.planet.jupiter","relevant":0}
+{"query_group":"unknown-birth-time","query":"What limitations apply to the Ascendant and houses when the birth time is unknown?","language":"en","topic":"calculation-limits","entry_id":"en.method.unknown-time","relevant":1}
+{"query_group":"unknown-birth-time","query":"What limitations apply to the Ascendant and houses when the birth time is unknown?","language":"en","topic":"calculation-limits","entry_id":"en.method.birth-data-quality","relevant":1}
+{"query_group":"unknown-birth-time","query":"What limitations apply to the Ascendant and houses when the birth time is unknown?","language":"en","topic":"calculation-limits","entry_id":"en.method.chart-angles","relevant":1}
+{"query_group":"unknown-birth-time","query":"What limitations apply to the Ascendant and houses when the birth time is unknown?","language":"en","topic":"calculation-limits","entry_id":"en.sign.pisces","relevant":0}
+{"query_group":"unknown-birth-time","query":"What limitations apply to the Ascendant and houses when the birth time is unknown?","language":"en","topic":"calculation-limits","entry_id":"en.planet.jupiter","relevant":0}
+{"query_group":"aspects","query":"اقتران، تثلیث، تسدیس، تربیع و مقابله در سنت جنبه‌های سیاره‌ای چه تفاوتی دارند؟","language":"fa","topic":"aspects","entry_id":"fa.aspect.conjunction","relevant":1}
+{"query_group":"aspects","query":"اقتران، تثلیث، تسدیس، تربیع و مقابله در سنت جنبه‌های سیاره‌ای چه تفاوتی دارند؟","language":"fa","topic":"aspects","entry_id":"fa.aspect.trine-sextile","relevant":1}
+{"query_group":"aspects","query":"اقتران، تثلیث، تسدیس، تربیع و مقابله در سنت جنبه‌های سیاره‌ای چه تفاوتی دارند؟","language":"fa","topic":"aspects","entry_id":"fa.aspect.square-opposition","relevant":1}
+{"query_group":"aspects","query":"اقتران، تثلیث، تسدیس، تربیع و مقابله در سنت جنبه‌های سیاره‌ای چه تفاوتی دارند؟","language":"fa","topic":"aspects","entry_id":"fa.house.2","relevant":0}
+{"query_group":"aspects","query":"اقتران، تثلیث، تسدیس، تربیع و مقابله در سنت جنبه‌های سیاره‌ای چه تفاوتی دارند؟","language":"fa","topic":"aspects","entry_id":"fa.planet.neptune","relevant":0}
+{"query_group":"aspects","query":"How do conjunction, trine, sextile, square and opposition differ in traditional astrological aspects?","language":"en","topic":"aspects","entry_id":"en.aspect.conjunction","relevant":1}
+{"query_group":"aspects","query":"How do conjunction, trine, sextile, square and opposition differ in traditional astrological aspects?","language":"en","topic":"aspects","entry_id":"en.aspect.trine-sextile","relevant":1}
+{"query_group":"aspects","query":"How do conjunction, trine, sextile, square and opposition differ in traditional astrological aspects?","language":"en","topic":"aspects","entry_id":"en.aspect.square-opposition","relevant":1}
+{"query_group":"aspects","query":"How do conjunction, trine, sextile, square and opposition differ in traditional astrological aspects?","language":"en","topic":"aspects","entry_id":"en.house.2","relevant":0}
+{"query_group":"aspects","query":"How do conjunction, trine, sextile, square and opposition differ in traditional astrological aspects?","language":"en","topic":"aspects","entry_id":"en.planet.neptune","relevant":0}
+{"query_group":"observer-centre","query":"تفاوت مرکز زمین و محل ناظر در محاسبات مختصات سیاره چیست؟","language":"fa","topic":"astronomy","entry_id":"fa.method.observer-centre","relevant":1}
+{"query_group":"observer-centre","query":"تفاوت مرکز زمین و محل ناظر در محاسبات مختصات سیاره چیست؟","language":"fa","topic":"astronomy","entry_id":"fa.method.coordinate-frame","relevant":1}
+{"query_group":"observer-centre","query":"تفاوت مرکز زمین و محل ناظر در محاسبات مختصات سیاره چیست؟","language":"fa","topic":"astronomy","entry_id":"fa.sign.virgo","relevant":0}
+{"query_group":"observer-centre","query":"تفاوت مرکز زمین و محل ناظر در محاسبات مختصات سیاره چیست؟","language":"fa","topic":"astronomy","entry_id":"fa.planet.venus","relevant":0}
+{"query_group":"observer-centre","query":"تفاوت مرکز زمین و محل ناظر در محاسبات مختصات سیاره چیست؟","language":"fa","topic":"astronomy","entry_id":"fa.house.3","relevant":0}
+{"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.method.observer-centre","relevant":1}
+{"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.method.coordinate-frame","relevant":1}
+{"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.sign.virgo","relevant":0}
+{"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.planet.venus","relevant":0}
+{"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.house.3","relevant":0}

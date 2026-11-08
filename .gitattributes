@@ -3,3 +3,4 @@ data/en/core.jsonl -text
 sources/sources.json -text
 schemas/knowledge.schema.json -text
 artifacts/ranker-model.json -text
+data/reference/planetary-parameters.json -text

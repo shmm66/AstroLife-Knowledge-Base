@@ -82,7 +82,8 @@ def sigmoid(z: float) -> float:
 
 def main() -> None:
     cards = load_cards()
-    examples = []
+    grouped: dict[str, list[tuple[list[float], int]]] = {}
+    group_languages: dict[str, set[str]] = {}
     for raw in LABELS.read_text(encoding="utf-8-sig").splitlines():
         if not raw.strip():
             continue
@@ -90,17 +91,41 @@ def main() -> None:
         card = cards.get(row["entry_id"])
         if card is None:
             raise SystemExit(f"Unknown or unreviewed card in labels: {row['entry_id']}")
-        examples.append((features(row["query"], row["language"], row["topic"], card), int(row["relevant"])))
+        key = row.get("query_group") or f'{row["language"]}|{row["topic"]}|{row["query"]}'
+        grouped.setdefault(key, []).append(
+            (features(row["query"], row["language"], row["topic"], card), int(row["relevant"]))
+        )
+        group_languages.setdefault(key, set()).add(row["language"])
 
-    if len(examples) < 30 or len({y for _, y in examples}) != 2:
-        raise SystemExit("Need at least 30 labelled pairs with both relevant and irrelevant examples.")
+    examples = [item for group in grouped.values() for item in group]
+    if len(examples) < 50 or len({y for _, y in examples}) != 2:
+        raise SystemExit("Need at least 50 labelled pairs with both relevant and irrelevant examples.")
+    if any(len({y for _, y in group}) != 2 for group in grouped.values()):
+        raise SystemExit("Every query group must contain both relevant and irrelevant examples.")
+    if any(languages != {"fa", "en"} for languages in group_languages.values()):
+        raise SystemExit("Every bilingual query group must include Persian and English examples.")
 
+    # Split by bilingual concept family so translated versions of one query
+    # cannot leak across training and holdout.
     rng = random.Random(42)
-    rng.shuffle(examples)
-    split = max(1, int(len(examples) * 0.8))
-    train, test = examples[:split], examples[split:]
-    if not test:
-        raise SystemExit("Holdout set is empty.")
+    train, test = [], []
+    train_group_count = 0
+    test_group_count = 0
+    test_group_values: list[list[tuple[list[float], int]]] = []
+    family_groups = list(grouped.items())
+    rng.shuffle(family_groups)
+    holdout_count = max(1, round(len(family_groups) * 0.25))
+    holdout = family_groups[:holdout_count]
+    training = family_groups[holdout_count:]
+    for _, values in training:
+        train.extend(values)
+    for _, values in holdout:
+        test.extend(values)
+        test_group_values.append(values)
+    train_group_count = len(training)
+    test_group_count = len(holdout)
+    if not train or not test:
+        raise SystemExit("Training or query-group holdout set is empty.")
 
     means = [sum(row[j] for row, _ in train) / len(train) for j in range(len(FEATURES))]
     stds = []
@@ -127,9 +152,12 @@ def main() -> None:
         weights = [w - learning_rate * (grad[j] / n + regularization * w) for j, w in enumerate(weights)]
         bias -= learning_rate * grad_bias / n
 
-    def predict(row: list[float]) -> int:
+    def probability(row: list[float]) -> float:
         x = [(row[j] - means[j]) / stds[j] for j in range(len(FEATURES))]
-        return int(sigmoid(sum(w*v for w, v in zip(weights, x)) + bias) >= 0.5)
+        return sigmoid(sum(w*v for w, v in zip(weights, x)) + bias)
+
+    def predict(row: list[float]) -> int:
+        return int(probability(row) >= 0.5)
 
     tp = fp = tn = fn = 0
     for row, y in test:
@@ -143,28 +171,53 @@ def main() -> None:
     recall = tp / (tp + fn) if tp + fn else 0.0
     f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0.0
 
+    precision_at_3 = []
+    recall_at_3 = []
+    reciprocal_ranks = []
+    ndcg_at_5 = []
+    for group in test_group_values:
+        ranked = sorted(group, key=lambda item: probability(item[0]), reverse=True)
+        relevant_positions = [index + 1 for index, (_, label) in enumerate(ranked) if label]
+        top3_hits = sum(1 for _, label in ranked[:3] if label)
+        total_relevant = sum(label for _, label in group)
+        precision_at_3.append(top3_hits / 3.0)
+        recall_at_3.append(top3_hits / total_relevant if total_relevant else 0.0)
+        reciprocal_ranks.append(1.0 / relevant_positions[0] if relevant_positions else 0.0)
+        dcg = sum(1.0 / math.log2(position + 1) for position in relevant_positions[:5])
+        ideal_count = min(total_relevant, 5)
+        ideal = sum(1.0 / math.log2(position + 1) for position in range(1, ideal_count + 1))
+        ndcg_at_5.append(dcg / ideal if ideal else 0.0)
+    ranking = {
+        "precision_at_3": sum(precision_at_3) / len(precision_at_3),
+        "recall_at_3": sum(recall_at_3) / len(recall_at_3),
+        "mrr": sum(reciprocal_ranks) / len(reciprocal_ranks),
+        "ndcg_at_5": sum(ndcg_at_5) / len(ndcg_at_5)
+    }
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     model = {
         "model_name": "astrolife-local-relevance-ranker",
-        "model_version": "0.1.0",
+        "model_version": "0.2.0",
         "algorithm": "standardized logistic regression trained with batch gradient descent",
         "feature_names": FEATURES,
         "means": means,
         "standard_deviations": stds,
         "weights": weights,
         "bias": bias,
-        "metrics": {"holdout_size": len(test), "accuracy": accuracy, "precision": precision,
+        "metrics": {"holdout_size": len(test), "holdout_query_groups": test_group_count, "train_query_groups": train_group_count, "accuracy": accuracy, "precision": precision,
                     "recall": recall, "f1": f1, "true_positive": tp, "false_positive": fp,
-                    "true_negative": tn, "false_negative": fn},
+                    "true_negative": tn, "false_negative": fn, **ranking},
         "training_examples": len(examples),
         "seed": 42,
         "trained_at": date.today().isoformat(),
-        "note": "Seed labels are editorial examples, not user data. Metrics are preliminary and are not evidence of interpretation accuracy."
+        "note": "Labels are maintainer-curated relevance judgements, not user data. Holdout is split by complete query groups to avoid candidate leakage. Metrics measure retrieval relevance only, are preliminary, and are not evidence of astrological interpretation accuracy."
     }
     OUT.write_text(json.dumps(model, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Model written: {OUT}")
     print(f"Pairs: {len(examples)} (train {len(train)}, holdout {len(test)})")
-    print(f"Holdout: accuracy={accuracy:.3f}, precision={precision:.3f}, recall={recall:.3f}, F1={f1:.3f}")
+    print(f"Query groups: train {train_group_count}, holdout {test_group_count} (split is group-disjoint)")
+    print(f"Holdout classification: accuracy={accuracy:.3f}, precision={precision:.3f}, recall={recall:.3f}, F1={f1:.3f}")
+    print("Holdout ranking: " + ", ".join(f"{key}={value:.3f}" for key, value in ranking.items()))
     print("Do not promote this ranker until it passes a larger, independently labelled Persian/English test set.")
 
 if __name__ == "__main__":

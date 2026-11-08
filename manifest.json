@@ -1,27 +1,32 @@
 {
   "name": "AstroLife Knowledge Base",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "schema_version": "1.0",
   "release_date": "2026-11-09",
   "languages": [
     "fa",
     "en"
   ],
-  "total_cards": 52,
+  "total_cards": 130,
   "files": {
     "data/fa/core.jsonl": {
-      "sha256": "65c0d96cc704007a71782c2a5308b92592472861b067c2d099afc398fc7d2258",
-      "bytes": 38822,
-      "entries": 26
+      "sha256": "4cfc60cbfe8dd9465313a40a9a56d308c6e7c70dd06db39880386e56f855d2f7",
+      "bytes": 96008,
+      "entries": 65
     },
     "data/en/core.jsonl": {
-      "sha256": "d763f38bcca7e8ccc169fbd6cb486263a796e5f73fe20f54216e5b7f7eaec47a",
-      "bytes": 28949,
-      "entries": 26
+      "sha256": "4bbc8a153a92ce470b53be89edecafdee29d3ff0a58ac457e070d0821ea8fd79",
+      "bytes": 72366,
+      "entries": 65
+    },
+    "data/reference/planetary-parameters.json": {
+      "sha256": "df525e637a82fd97de4de42d7998247decfa3e296d9992954238078f02c269b9",
+      "bytes": 9975,
+      "entries": null
     },
     "sources/sources.json": {
-      "sha256": "35e250f47e9dc9a504225ceaeeb5274e57ac060b83d86683c24d3f60f214a48e",
-      "bytes": 6542,
+      "sha256": "04255039e6f2e5493b6090f8b6a3138d3fa29b3f283573121747032210a3af01",
+      "bytes": 14598,
       "entries": null
     },
     "schemas/knowledge.schema.json": {
@@ -29,9 +34,14 @@
       "bytes": 1926,
       "entries": null
     },
+    "schemas/planetary-reference.schema.json": {
+      "sha256": "5c4c7f34cb75fe68d065b27caa2231f2a943bdbb02d34f78de81063f2f8049ff",
+      "bytes": 3908,
+      "entries": null
+    },
     "artifacts/ranker-model.json": {
-      "sha256": "d1f895141e3add0a2ec362a95591996f1876565b2ac08562e87b53ddd8dc7368",
-      "bytes": 1550,
+      "sha256": "2b92773658258db6518bf274c1b82fff111786e2688251f4cfc1639d5b835106",
+      "bytes": 1853,
       "entries": null
     }
   },

@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shmm66/AstroLife-Knowledge-Base/blob/main/schemas/planetary-reference.schema.json",
+  "title": "AstroLife JPL Planetary Physical Reference",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "dataset",
+    "dataset_version",
+    "retrieved_at",
+    "source_id",
+    "source_url",
+    "publisher",
+    "units",
+    "planets",
+    "dwarf_planets",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "dataset": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dataset_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_id": {
+      "const": "JPL_PHYSICAL_PARAMETERS"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://ssd\\\\.jpl\\\\.nasa\\\\.gov/"
+    },
+    "publisher": {
+      "const": "NASA Jet Propulsion Laboratory, Solar System Dynamics"
+    },
+    "description": {
+      "type": "string"
+    },
+    "data_note": {
+      "type": "string"
+    },
+    "uncertainty_policy": {
+      "type": "string"
+    },
+    "units": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "planets": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "$ref": "#/$defs/body"
+      }
+    },
+    "dwarf_planets": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/body"
+          },
+          {
+            "type": "object",
+            "required": [
+              "iau_classification"
+            ],
+            "properties": {
+              "iau_classification": {
+                "const": "dwarf planet"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "body": {
+      "type": "object",
+      "required": [
+        "name",
+        "mean_radius_km",
+        "bulk_density_g_cm3",
+        "sidereal_rotation_period_days",
+        "sidereal_orbital_period_years",
+        "visual_magnitude_v_1_0",
+        "geometric_albedo",
+        "equatorial_gravity_m_s2",
+        "escape_velocity_km_s"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "iau_classification": {
+          "type": "string"
+        },
+        "equatorial_radius_km": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "mean_radius_km": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "mass_1e24_kg": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "mass_1e18_kg": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "bulk_density_g_cm3": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "sidereal_rotation_period_days": {
+          "type": "number",
+          "not": {
+            "const": 0
+          }
+        },
+        "sidereal_orbital_period_years": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "visual_magnitude_v_1_0": {
+          "type": "number"
+        },
+        "geometric_albedo": {
+          "type": "number",
+          "minimum": 0
+        },
+        "equatorial_gravity_m_s2": {
+          "type": "number",
+          "minimum": 0
+        },
+        "escape_velocity_km_s": {
+          "type": "number",
+          "minimum": 0
+        },
+        "uncertainties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,59 +1,57 @@
 # AstroLife Knowledge Base
 
-An open, bilingual (Persian/English) knowledge library and offline-first retrieval agent for AstroLife Pro.
+An open, bilingual Persian/English knowledge library and offline-first retrieval agent for AstroLife Pro.
 
-**Current release:** 0.1.1  
-**Corpus:** 52 curated cards — 26 Persian and 26 English  
-**Published:** 2026-11-09
+**Release:** 0.2.0  
+**Curated corpus:** 130 reviewed seed cards — 65 Persian and 65 English  
+**Registered sources:** 21  
+**Structured planetary reference:** 8 IAU planets + 5 JPL-listed dwarf planets  
+**Release date:** 2026-11-09
 
-## Design goals
-- No paid generative-AI API, account, or API key is required.
-- The application combines locally calculated chart facts with this source-attributed library.
-- The public, versioned knowledge snapshot can be cached locally and used offline.
-- Astronomy, historical astrological doctrine, symbolic interpretation, and empirical research are separate evidence classes.
-- Reports use natural language and explain the basis and limitations of interpretations.
+## What is included
+- Bilingual knowledge cards covering planets, houses, signs, aspects, transits, relationships, astronomical calculation methods, history, evidence boundaries and empirical research.
+- A structured NASA JPL planetary-parameters dataset with units, published uncertainties where available, and separate dwarf-planet classification.
+- Source registry, machine-readable card schema, licensing notes, editorial policy and privacy rules.
+- A small offline logistic-regression relevance ranker trained on maintainer-curated bilingual query families.
+- A versioned manifest with SHA-256 checksums and a public GitHub distribution endpoint for other apps and agents.
 
-## Repository layout
-- `data/fa/`, `data/en/`: curated knowledge cards in JSON Lines format.
-- `sources/`: source registry, rights notes, and retrieval links.
-- `schemas/`: machine-readable validation schema.
-- `training/`: reviewed relevance examples and candidate templates.
-- `tools/`: validation, indexing, curation, and ML-ranking tools.
-- `docs/`: agent architecture, editorial rules, and privacy policy.
-- `manifest.json`: version, language counts, file sizes, and SHA-256 hashes used by clients.
+## How an agent can use it
+1. Read `manifest.json` and select the desired language corpus.
+2. Validate every downloaded file against the listed byte length and SHA-256 before use.
+3. Parse JSON Lines cards using `schemas/knowledge.schema.json`.
+4. Resolve each card's `source_ids` against `sources/sources.json`.
+5. For physical and orbital parameters, read `data/reference/planetary-parameters.json` and preserve units and any published uncertainty.
+6. Use the bundled ranker in `artifacts/ranker-model.json` for relevance ordering, not for generating or validating scientific claims.
+7. Preserve the evidence class: astronomical measurement, historical tradition, symbolic reflection or empirical research.
 
-## How the agent works
-1. AstroLife calculates chart positions and aspects locally. Calculation metadata is preserved.
-2. The agent selects knowledge cards that match the actual chart facts, question, and chosen language.
-3. Local lexical retrieval and a small supervised ranking model order candidate cards.
-4. A deterministic synthesis layer combines relevant ideas, removes duplicates, and produces a short or detailed explanation.
-5. The output identifies evidence classes, sources, and limitations.
-6. The client checks the public GitHub manifest, verifies downloaded files against SHA-256 values, and activates a validated versioned snapshot. Offline use falls back to the last verified snapshot.
+A client should pin all files for a release to one immutable Git commit, verify hashes, stage the snapshot and only then activate it. The AstroLife Pro desktop client does this and keeps a previous verified snapshot for offline fallback and rollback.
 
-## Machine-learning status and limits
-The bundled logistic-regression ranker is an initial relevance model, not a mature general-purpose language model. Its seed evaluation used 80 labelled examples (64 training and 16 holdout); the observed holdout metrics are preliminary and too small to establish robust Persian/English retrieval quality. More independently labelled examples and broader evaluation are required.
+## Evidence and content boundaries
+- **Astronomy:** numerical statements are attributed to official sources such as NASA/JPL and the IAU. A coordinate requires its epoch, time scale, reference frame and observing centre.
+- **History:** sources such as Oxford reference works and the Ptolemaeus Arabus et Latinus project document what historical traditions taught; historical influence is not proof of predictive validity.
+- **Symbolic astrology:** sign and planet interpretations are original reflective summaries, not measured personality traits or guaranteed outcomes.
+- **Empirical research:** the library records specific study designs, samples and outcomes. Findings are not extrapolated beyond the claims that were tested.
+- **Copyright:** protected source texts and data are not copied into this repository. It contains source links, bibliographic metadata and original summaries.
 
-Machine learning improves retrieval and ranking. It does **not** establish astrological claims as true, infer facts that are absent from a chart, or autonomously publish new factual content. New knowledge must pass source, rights, language, and editorial review. User-feedback collection and contribution upload are not enabled in the current desktop UI.
+## Machine-learning evaluation
+The ranker was trained on 168 maintainer-curated relevance judgements spanning 17 bilingual query families. Persian and English variants of a family are kept together during the group-disjoint split: 13 families for training and 4 for holdout (40 candidate judgements).
 
-## Content and evidence policy
-- Astronomy: numerical facts must identify the ephemeris provider, time scale, coordinate frame, settings, and tested range.
-- Traditional astrology: described as a historical symbolic framework, not as a scientific law.
-- Forecasts: themes for reflection, not inevitable events, guaranteed dates, diagnoses, investment advice, or relationship verdicts.
-- Research: report study design and limitations, including important critiques or reanalyses where relevant.
-- Copyright: keep links, bibliographic metadata, and original summaries; do not scrape or republish protected books, websites, images, or datasets.
+Holdout results: classification accuracy 0.900, precision 1.000, recall 0.800, F1 0.889; ranking Precision@3 1.000, Recall@3 0.625, MRR 1.000 and nDCG@5 0.996.
+
+These are preliminary results on a small, hand-curated holdout, not an independent external benchmark. They measure retrieval relevance only—not the scientific validity of astrology or the correctness of an interpretation. More independent bilingual annotations are required before describing the ranker as production-grade.
 
 ## Privacy
-The application requests public library files only. Birth details, chart data, prompts, profiles, and generated reports are not uploaded to this repository for synchronization.
+The public repository contains no birth profiles, names, charts, prompts, relationship details or generated reports. The desktop app downloads public library files only. User chart data is not uploaded to GitHub. The current UI does not collect or upload feedback for model training.
 
 ## Licenses
 - Source code and tools: MIT (`LICENSE`).
-- Original curated knowledge cards: Creative Commons Attribution 4.0 International (`LICENSE-DATA.md`).
-- Third-party sources and model weights retain their own licenses; see `sources/sources.json`.
+- Original curated cards and editorial summaries: Creative Commons Attribution 4.0 International (`LICENSE-DATA.md`).
+- Third-party works and model artifacts retain their own licenses; see `sources/sources.json`.
 
 ## Release status
-- **Public repository:** published.
-- **Bilingual seed corpus and manifest:** published as version 0.1.1.
-- **Desktop synchronization:** implemented in AstroLife Pro 0.8.3, with SHA-256 validation, staged snapshots, atomic activation, offline fallback, and rollback.
-- **Broad independent retrieval evaluation:** still in progress.
+- Public repository: published at https://github.com/shmm66/AstroLife-Knowledge-Base. Client sync pins one immutable commit and verifies SHA-256.
+- Offline-first AstroLife Pro integration: packaged for desktop version 0.8.4.
+- Manifest, source references, content parity and SHA-256 validation: part of release checks.
+- Independent evaluation and broader content expansion: ongoing.
 
-This is a curated foundation, not an exhaustive astrological encyclopedia. Astronomy calculations and astrological interpretations have different evidence standards; a correct chart calculation does not prove that a symbolic interpretation predicts real-world events.
+This is a growing reference library, not an exhaustive encyclopedia. Correct astronomical calculations do not establish predictive astrological validity.
