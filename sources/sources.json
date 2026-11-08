@@ -110,6 +110,96 @@
       "use": "Exclusion rule until the project has selected and complied with a permitted license.",
       "rights_note": "Dual AGPL/professional licensing. It is not included in this repository or bundled application by default.",
       "evidence_class": "license_restriction"
+    },
+    {
+      "id": "JPL_HORIZONS_MANUAL",
+      "title": "Horizons System User Manual",
+      "publisher": "NASA Jet Propulsion Laboratory, Solar System Dynamics",
+      "url": "https://ssd.jpl.nasa.gov/horizons/manual.html",
+      "source_type": "official_ephemeris_technical_documentation",
+      "use": "Definitions and configuration for ephemerides, observing centres, coordinate frames, time scales, apparent coordinates, and uncertainty.",
+      "rights_note": "Use the manual as technical documentation. Record target, centre, time scale, reference frame, corrections, step size, and retrieval date for reproducible calculations.",
+      "evidence_class": "astronomical_measurement"
+    },
+    {
+      "id": "JPL_PHYSICAL_PARAMETERS",
+      "title": "Planetary Physical Parameters",
+      "publisher": "NASA Jet Propulsion Laboratory, Solar System Dynamics",
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "source_type": "official_planetary_reference_data",
+      "use": "Reference values for planetary radii, masses, densities, sidereal rotation periods and orbital periods, including listed uncertainties and citations.",
+      "rights_note": "Retain units, uncertainties, reference notes, and retrieval date. Values are physical reference data, not astrological meanings.",
+      "evidence_class": "astronomical_measurement"
+    },
+    {
+      "id": "IAU_RESOLUTION_2006",
+      "title": "IAU Resolution B5 and Resolution 6A (2006)",
+      "publisher": "International Astronomical Union",
+      "url": "https://www.iau.org/static/public_press/iau_po_report.pdf",
+      "source_type": "official_astronomical_resolution",
+      "use": "Official 2006 Solar System definitions of planet and dwarf planet and the classification of Pluto.",
+      "rights_note": "Cite the resolution. Do not describe Pluto as one of the eight IAU planets.",
+      "evidence_class": "astronomical_measurement"
+    },
+    {
+      "id": "OXFORD_BABYLONIAN_ASTRONOMY",
+      "title": "Astronomy, Babylonia",
+      "publisher": "John Steele, Oxford Classical Dictionary / Oxford Research Encyclopedias (2021)",
+      "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/550534232",
+      "source_type": "scholarly_history_of_science_reference",
+      "use": "Scholarly overview of Babylonian and Assyrian observation, mathematical astronomy, celestial divination and the historical overlap of astronomy and astrology.",
+      "rights_note": "Use bibliographic facts and original summaries only; full chapter access may be restricted.",
+      "evidence_class": "historical_tradition"
+    },
+    {
+      "id": "PAL_PTOLEMY_TETRABIBLOS",
+      "title": "Ptolemy, Tetrabiblos (Greek) — Ptolemaeus Arabus et Latinus",
+      "publisher": "Bayerische Akademie der Wissenschaften research project",
+      "url": "https://ptolemaeus.badw.de/work/27",
+      "source_type": "scholarly_primary_text_catalogue",
+      "use": "Scholarly catalogue of the Tetrabiblos, its four-book structure, and its Greek, Arabic and Latin transmission history.",
+      "rights_note": "Use the catalogue for history and manuscript/translation context. Do not treat historical doctrine as empirical proof or copy protected editions.",
+      "evidence_class": "historical_tradition"
+    },
+    {
+      "id": "HARTMANN_REUTER_NYBORG_2006",
+      "title": "The relationship between date of birth and individual differences in personality and general intelligence: A large-scale study",
+      "publisher": "Personality and Individual Differences (2006), DOI 10.1016/j.paid.2005.11.017",
+      "url": "https://doi.org/10.1016/j.paid.2005.11.017",
+      "source_type": "peer_reviewed_empirical_study",
+      "use": "Large-sample analysis of more than 15,000 participants testing associations between birth-date/zodiac groupings and personality or intelligence; reported no support for the proposed zodiac effects.",
+      "rights_note": "Summarize the study design and its limits; no article text or protected tables are reproduced.",
+      "evidence_class": "empirical_research"
+    },
+    {
+      "id": "HELGERTZ_SCOTT_2020",
+      "title": "The validity of astrological predictions on marriage and divorce: a longitudinal analysis of Swedish register data",
+      "publisher": "Genus 76, article 34 (2020)",
+      "url": "https://link.springer.com/article/10.1186/s41118-020-00103-5",
+      "source_type": "peer_reviewed_longitudinal_empirical_study",
+      "use": "Longitudinal analysis of Swedish register data from 1968–2001; found no consistent evidence that astrologically favourable pairings were overrepresented in marriages or linked to lower divorce risk.",
+      "rights_note": "Use a short original summary with study population, period, outcome and limitations; do not reproduce article text.",
+      "evidence_class": "empirical_research"
+    },
+    {
+      "id": "JOSHANLOO_2024",
+      "title": "The sun's position at birth is unrelated to subjective well-being: Debunking astrological claims",
+      "publisher": "Mohsen Joshanloo, Kyklos 77(4) (2024), 835–844",
+      "url": "https://doi.org/10.1111/kykl.12395",
+      "source_type": "peer_reviewed_empirical_study",
+      "use": "Study of a nationally representative US sample (N=12,791) that reported no robust association between Western zodiac signs and eight well-being outcomes; effects accounted for 0.3% or less of variance.",
+      "rights_note": "Summarize the sample, measured outcomes and limitations without reproducing text or data tables.",
+      "evidence_class": "empirical_research"
+    },
+    {
+      "id": "KELLY_1979",
+      "title": "Astrology and Science: A Critical Examination",
+      "publisher": "I. W. Kelly, Psychological Reports 44(3_suppl) (1979)",
+      "url": "https://doi.org/10.2466/pr0.1979.44.3c.1231",
+      "source_type": "peer_reviewed_literature_review",
+      "use": "Review of empirical research on zodiac signs, Moon signs, ascendants and planetary aspects in relation to psychological variables; reports that most studies reviewed did not confirm astrological claims.",
+      "rights_note": "Bibliographic reference and brief original synthesis only.",
+      "evidence_class": "empirical_research"
     }
   ]
 }
