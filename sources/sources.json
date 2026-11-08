@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "ASTROLIFE_ORIGINAL_CURATION",
+      "title": "AstroLife original editorial synthesis",
+      "publisher": "AstroLife Knowledge Base contributors",
+      "url": "https://github.com/shmm66/AstroLife-Knowledge-Base",
+      "source_type": "original_authored_content",
+      "use": "Original plain-language summaries and reflective prompts written for this knowledge base. Not a quotation or claim of empirical proof.",
+      "rights_note": "Original cards are CC BY 4.0. External sources are separately listed and retain their own rights.",
+      "evidence_class": "symbolic_reflection"
+    },
+    {
+      "id": "JPL_HORIZONS",
+      "title": "JPL Horizons API documentation",
+      "publisher": "NASA Jet Propulsion Laboratory",
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "source_type": "official_astronomy_reference",
+      "use": "Independent comparison fixtures for solar-system positions and explicit ephemeris settings.",
+      "rights_note": "Use documented API outputs and retain query settings, version, timestamp and attribution. Do not imply JPL endorsement.",
+      "evidence_class": "astronomical_measurement"
+    },
+    {
+      "id": "IAU_CONSTELLATIONS",
+      "title": "The Constellations",
+      "publisher": "International Astronomical Union",
+      "url": "https://www.iau.org/IAU/Astronomy-FAQs/Constellations.aspx",
+      "source_type": "official_astronomy_reference",
+      "use": "Astronomical distinction between constellation boundaries, star patterns and cultural sky traditions.",
+      "rights_note": "Link and cite the source; do not copy its images or page text into this dataset.",
+      "evidence_class": "astronomical_reference"
+    },
+    {
+      "id": "PTOLEMY_TETRABIBLOS_ASHMAND",
+      "title": "Ptolemy's Tetrabiblos, translated by J. M. Ashmand",
+      "publisher": "Project Gutenberg, eBook 70850",
+      "url": "https://www.gutenberg.org/ebooks/70850",
+      "source_type": "historical_primary_text",
+      "use": "Historical reference for classical astrological vocabulary and the history of traditional doctrine.",
+      "rights_note": "Project Gutenberg marks this edition public domain in the U.S. and asks readers elsewhere to check local law. This repository stores original summaries and a link, not the full translation.",
+      "evidence_class": "historical_tradition"
+    },
+    {
+      "id": "CARLSON_1985",
+      "title": "A double-blind test of astrology",
+      "publisher": "Nature, 318, 419-425 (1985)",
+      "url": "https://doi.org/10.1038/318419a0",
+      "source_type": "peer_reviewed_empirical_study",
+      "use": "A controlled test of claims about natal charts and personality matching.",
+      "rights_note": "Bibliographic citation and high-level summary only; no reproduction of article text.",
+      "evidence_class": "empirical_research"
+    },
+    {
+      "id": "ERTEL_2010",
+      "title": "Appraisal of Shawn Carlson's Renowned Astrology Tests",
+      "publisher": "Journal of Scientific Exploration, 23(2) (2010)",
+      "url": "https://journalofscientificexploration.org/index.php/jse/article/view/99",
+      "source_type": "peer_reviewed_reanalysis",
+      "use": "A published critique and reanalysis of the 1985 Carlson study; demonstrates that the debate should not be oversimplified.",
+      "rights_note": "Bibliographic citation and high-level summary only; no reproduction of article text.",
+      "evidence_class": "empirical_research"
+    },
+    {
+      "id": "WYMAN_VYSE_2008",
+      "title": "Science versus the stars: a double-blind test of the validity of the NEO Five-Factor Inventory and computer-generated astrological natal charts",
+      "publisher": "Journal of General Psychology, 135(3), 287-300 (2008)",
+      "url": "https://doi.org/10.3200/GENP.135.3.287-300",
+      "source_type": "peer_reviewed_empirical_study",
+      "use": "A controlled test in which participants could identify their real NEO personality summaries above chance but could not identify their own computer-generated astrology summaries.",
+      "rights_note": "Bibliographic citation and high-level summary only; no reproduction of article text.",
+      "evidence_class": "empirical_research"
+    },
+    {
+      "id": "ASTRONOMY_ENGINE",
+      "title": "Astronomy Engine",
+      "publisher": "Cosine Kitty",
+      "url": "https://github.com/cosinekitty/astronomy",
+      "source_type": "open_source_calculation_library",
+      "use": "The current AstroLife calculation provider and its documented assumptions; not a claim of NASA/JPL equivalence.",
+      "rights_note": "MIT license in the upstream repository. Preserve its license and attribution when distributing code.",
+      "evidence_class": "astronomical_calculation"
+    },
+    {
+      "id": "MINILM_MULTILINGUAL",
+      "title": "paraphrase-multilingual-MiniLM-L12-v2 model card",
+      "publisher": "Sentence Transformers on Hugging Face",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "source_type": "machine_learning_model",
+      "use": "Optional multilingual semantic-search experiment; not a mandatory runtime dependency.",
+      "rights_note": "Model card lists Apache-2.0 and 384-dimensional vectors across 50 languages. Review upstream dependencies before redistribution; do not bundle the large model in the default installer.",
+      "evidence_class": "retrieval_model"
+    },
+    {
+      "id": "ASTRO_DATABANK_EXCLUDED",
+      "title": "Astro-Databank copyright and reuse policy",
+      "publisher": "Astrodienst AG",
+      "url": "https://www.astro.com/astro-databank/Astro-Databank%3ACopyright",
+      "source_type": "rights_and_reuse_policy",
+      "use": "Exclusion rule: no scraping or copying protected prose/images.",
+      "rights_note": "Astro-Databank explicitly prohibits spidering/scraping and reserves rights in its creative text and images.",
+      "evidence_class": "license_restriction"
+    },
+    {
+      "id": "SWISS_EPHEMERIS_EXCLUDED",
+      "title": "Swiss Ephemeris licensing information",
+      "publisher": "Astrodienst AG",
+      "url": "https://www.astro.com/swisseph/swephinfo_e.htm",
+      "source_type": "license_and_technical_reference",
+      "use": "Exclusion rule until the project has selected and complied with a permitted license.",
+      "rights_note": "Dual AGPL/professional licensing. It is not included in this repository or bundled application by default.",
+      "evidence_class": "license_restriction"
+    }
+  ]
+}

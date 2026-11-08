@@ -1,0 +1,39 @@
+{
+  "name": "AstroLife Knowledge Base",
+  "version": "0.1.1",
+  "schema_version": "1.0",
+  "release_date": "2026-11-09",
+  "languages": [
+    "fa",
+    "en"
+  ],
+  "total_cards": 52,
+  "files": {
+    "data/fa/core.jsonl": {
+      "sha256": "65c0d96cc704007a71782c2a5308b92592472861b067c2d099afc398fc7d2258",
+      "bytes": 38822,
+      "entries": 26
+    },
+    "data/en/core.jsonl": {
+      "sha256": "d763f38bcca7e8ccc169fbd6cb486263a796e5f73fe20f54216e5b7f7eaec47a",
+      "bytes": 28949,
+      "entries": 26
+    },
+    "sources/sources.json": {
+      "sha256": "35e250f47e9dc9a504225ceaeeb5274e57ac060b83d86683c24d3f60f214a48e",
+      "bytes": 6542,
+      "entries": null
+    },
+    "schemas/knowledge.schema.json": {
+      "sha256": "aadb819795572299e93cc8cf646c444a3a7eb15bf9ce9e8b066c46c36c65c77c",
+      "bytes": 1926,
+      "entries": null
+    },
+    "artifacts/ranker-model.json": {
+      "sha256": "d1f895141e3add0a2ec362a95591996f1876565b2ac08562e87b53ddd8dc7368",
+      "bytes": 1550,
+      "entries": null
+    }
+  },
+  "sync_policy": "HTTPS GET only; verify every SHA-256 before replacing the active local snapshot."
+}
