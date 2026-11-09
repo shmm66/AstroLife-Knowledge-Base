@@ -2,14 +2,14 @@
 
 An open, bilingual Persian/English knowledge library and offline-first retrieval agent for AstroLife Pro.
 
-**Release:** 0.2.2
-**Curated corpus:** 136 reviewed seed cards — 68 Persian and 68 English  
-**Registered sources:** 25  
+**Release:** 0.3.0
+**Curated corpus:** 154 reviewed seed cards — 77 Persian and 77 English  
+**Registered sources:** 32  
 **Structured planetary reference:** 8 IAU planets + 5 JPL-listed dwarf planets  
 **Release date:** 2026-11-09
 
 ## What is included
-- Bilingual knowledge cards covering planets, houses, signs, aspects, transits, relationships, astronomical calculation methods, history, evidence boundaries and empirical research.
+- Bilingual knowledge cards covering planets, houses, signs, aspects, transits, relationships, Solar Hijri month-cohort horoscopes, solar whole-sign houses, personal Solar Returns, calendar boundaries, annual-revolution history, wellbeing boundaries, astronomical methods and empirical research.
 - A structured NASA JPL planetary-parameters dataset with units, published uncertainties where available, and separate dwarf-planet classification.
 - Source registry, machine-readable card schema, licensing notes, editorial policy and privacy rules.
 - A small offline logistic-regression relevance ranker trained on maintainer-curated bilingual query families.
@@ -50,7 +50,7 @@ The public repository contains no birth profiles, names, charts, prompts, relati
 
 ## Release status
 - Public repository: published at https://github.com/shmm66/AstroLife-Knowledge-Base. Client sync pins one immutable commit and verifies SHA-256.
-- Offline-first AstroLife Pro integration: packaged for desktop version 0.8.5.
+- Offline-first AstroLife Pro integration: packaged for desktop version 0.9.0.
 - Manifest, source references, content parity and SHA-256 validation: part of release checks.
 - Independent evaluation and broader content expansion: ongoing.
 
@@ -68,3 +68,16 @@ AstroLife routes reports by **chart type**, then labels the **astrological tradi
 - Relationship reports: synastry compares two charts; composite treats the relationship as a derived chart. Do not reduce either to a deterministic compatibility verdict.
 
 Synergy and Astrology is used as a Persian-facing taxonomy reference; Astro.com and Cafe Astrology are additional practitioner references for chart-type and report structure. Their text is not copied. Medical astrology is excluded from health advice and diagnosis. These categories describe astrological traditions and are not scientific validation of predictive claims.
+
+
+## Solar Hijri yearly horoscope method (0.3.0)
+
+This release adds bilingual method cards for general Solar Hijri birth-month cohort readings. The cohort horoscope is deliberately distinct from a personal natal chart and from a personal Solar Return:
+
+- Cohort reports use a conventional month-to-sign reference and solar whole-sign houses. This is a general grouping method; exact Sun-sign boundaries can fall within the end of a Solar Hijri month.
+- Personal Solar Return reports require the exact return of the transiting Sun to an individual's natal solar longitude and a defined reference location.
+- The annual transit windows in AstroLife are based on weekly samples from Astronomy Engine 2.1.19. Their dates are approximate windows, not exact ingress or station timestamps; they are not represented as JPL Horizons calculations.
+- Wellbeing content remains limited to general routines, rest and stress management. It does not diagnose or predict disease, pregnancy, death, surgery or treatment outcomes.
+- New source records document Solar Hijri calendar history, Solar Return taxonomy, annual-transit report structure, Abu Ma'shar's annual revolutions and historical scholarship.
+
+The 0.3.0 corpus contains 77 Persian and 77 English cards with 32 registered sources. Manifest hashes and byte counts are intended to be verified before the app activates a new library snapshot.
