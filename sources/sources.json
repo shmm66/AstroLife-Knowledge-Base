@@ -271,6 +271,83 @@
       "rights_note": "Bibliographic citation and high-level summary only; no reproduction of article text.",
       "evidence_class": "empirical_research",
       "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "IRANICA_CALENDARS_JALALI",
+      "title": "Calendars ii. In the Islamic Period — the Jalali calendar",
+      "publisher": "Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/calendars/calendars-ii-in-the-islamic-period/",
+      "source_type": "scholarly_calendar_history",
+      "use": "Historical and calendrical reference for the Jalali reform, Nowruz at the vernal equinox, the first six 31-day months, the following five 30-day months, and leap-year handling. Use this to distinguish Solar Hijri month boundaries from fixed Gregorian dates.",
+      "rights_note": "Use bibliographic metadata and original concise summaries only; do not reproduce the encyclopaedia text.",
+      "evidence_class": "historical_tradition",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "IRANICA_NOWRUZ_CALENDAR",
+      "title": "Nowruz iii. In the Iranian Calendar",
+      "publisher": "Encyclopaedia Iranica",
+      "url": "https://www.iranicaonline.org/articles/nowruz-iii/",
+      "source_type": "scholarly_calendar_history",
+      "use": "Reference for the modern Iranian calendar's Nowruz definition in relation to the vernal equinox and the first point of Aries, plus historical calendar reforms.",
+      "rights_note": "Use original summaries and cite the article; do not copy protected prose.",
+      "evidence_class": "historical_tradition",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "HEYDARI_MALAYERI_IRANIAN_CALENDAR",
+      "title": "A Concise Review of the Iranian Calendar",
+      "publisher": "M. Heydari-Malayeri, Paris Observatory; arXiv:astro-ph/0409620",
+      "url": "https://arxiv.org/abs/astro-ph/0409620",
+      "source_type": "astronomical_calendar_review",
+      "use": "Technical review of the Solar Hijri calendar, equinox-based year definition and intercalation. Use for calendar-method context, not as a statement that every month is identical to one tropical zodiac sign.",
+      "rights_note": "Link the paper and write original summaries; do not copy tables or text.",
+      "evidence_class": "astronomical_reference",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "ASTRO_COM_SOLAR_RETURN",
+      "title": "Solar Return Chart — Astrodienst Astrowiki",
+      "publisher": "Astrodienst / astro.com",
+      "url": "https://www.astro.com/astrowiki/en/Solar_Horoscope",
+      "source_type": "practitioner_method_reference",
+      "use": "Used to distinguish a personal Solar Return chart (the exact time the transiting Sun returns to an individual's natal solar longitude, interpreted with the natal chart and a reference location) from a generic birth-month cohort horoscope.",
+      "rights_note": "Method taxonomy only; no copyrighted interpretations are copied.",
+      "evidence_class": "historical_tradition",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "ASTRO_COM_TRANSITS_YEAR",
+      "title": "Transits of the Year — annual transit report structure",
+      "publisher": "Astrodienst / astro.com",
+      "url": "https://www.astro.com/prod/pr_tj_e.htm",
+      "source_type": "practitioner_report_structure_reference",
+      "use": "Used only as a structural example: select a small number of significant, long-range transits, explain why they matter, and present opportunities and challenges in a readable 12-month narrative. The AstroLife cohort report is not the same as this personal natal-transit report.",
+      "rights_note": "Structure and taxonomy only; no authored interpretation text, images or paid report content is copied.",
+      "evidence_class": "editorial_method",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "LOC_ABU_MASHAR_ANNUAL_REVOLUTIONS",
+      "title": "Abu Ma'shar's Eight Treatises Regarding the Great Conjunctions, the Annual Revolutions, and Their Origins",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/item/2021666870/",
+      "source_type": "historical_primary_text_catalogue",
+      "use": "Bibliographic and historical record of Abu Ma'shar's work on annual revolutions of nativities and historical astrology. Useful for documenting the historical tradition, not validating predictive accuracy.",
+      "rights_note": "Use catalogue metadata and original historical summaries; inspect edition-specific rights before reproducing scans.",
+      "evidence_class": "historical_tradition",
+      "accessed_at": "2026-11-09"
+    },
+    {
+      "id": "BRILL_JEWEL_ANNUAL_ASTROLOGY",
+      "title": "The Jewel of Annual Astrology",
+      "publisher": "Brill, scholarly monograph",
+      "url": "https://brill.com/display/book/9789004433717/9789004433717_webready_content_text.pdf",
+      "source_type": "scholarly_history_of_astrology",
+      "use": "Scholarly study of annual astrology, annual revolutions and historical techniques for subdividing year-ahead readings. Use to understand historical method and terminology, not as empirical validation.",
+      "rights_note": "Full scholarly work may be copyright-protected. Store only a bibliographic link and newly written summaries.",
+      "evidence_class": "historical_tradition",
+      "accessed_at": "2026-11-09"
     }
   ],
   "retrieved_at": "2026-11-09"
