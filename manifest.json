@@ -1,6 +1,6 @@
 {
   "name": "AstroLife Knowledge Base",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "schema_version": "1.0",
   "release_date": "2026-11-09",
   "languages": [
@@ -10,12 +10,12 @@
   "total_cards": 136,
   "files": {
     "data/fa/core.jsonl": {
-      "sha256": "3ccd4e7b88b098d1563750bd1ee90997fa3272290b308f02774652ca92523198",
+      "sha256": "d913f9d2dbe61ccfe012d2285336d7acfe84267a8c202cb25703fc345c9edb94",
       "bytes": 104471,
       "entries": 68
     },
     "data/en/core.jsonl": {
-      "sha256": "341bf1b19f7d7d7921edc7b880807eac4b67349f146094cdb3d25c366542f88b",
+      "sha256": "cb88b76f79f1808f5931ffd013ef38abc659fe58962fc2ee5ae942ba73059d90",
       "bytes": 78503,
       "entries": 68
     },

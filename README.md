@@ -2,7 +2,7 @@
 
 An open, bilingual Persian/English knowledge library and offline-first retrieval agent for AstroLife Pro.
 
-**Release:** 0.2.1  
+**Release:** 0.2.2
 **Curated corpus:** 136 reviewed seed cards — 68 Persian and 68 English  
 **Registered sources:** 25  
 **Structured planetary reference:** 8 IAU planets + 5 JPL-listed dwarf planets  
@@ -50,7 +50,7 @@ The public repository contains no birth profiles, names, charts, prompts, relati
 
 ## Release status
 - Public repository: published at https://github.com/shmm66/AstroLife-Knowledge-Base. Client sync pins one immutable commit and verifies SHA-256.
-- Offline-first AstroLife Pro integration: packaged for desktop version 0.8.4.
+- Offline-first AstroLife Pro integration: packaged for desktop version 0.8.5.
 - Manifest, source references, content parity and SHA-256 validation: part of release checks.
 - Independent evaluation and broader content expansion: ongoing.
 
