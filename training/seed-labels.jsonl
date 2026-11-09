@@ -166,3 +166,63 @@
 {"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.sign.virgo","relevant":0}
 {"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.planet.venus","relevant":0}
 {"query_group":"observer-centre","query":"What is the difference between geocentric and topocentric observer coordinates?","language":"en","topic":"astronomy","entry_id":"en.house.3","relevant":0}
+{"query_group":"mesopotamia","query":"تاریخ طالع‌بینی بابلی، لوح‌های میخی و دفترهای رصد نجومی","language":"fa","topic":"history","entry_id":"fa.history.mesopotamia.celestial","relevant":1}
+{"query_group":"mesopotamia","query":"تاریخ طالع‌بینی بابلی، لوح‌های میخی و دفترهای رصد نجومی","language":"fa","topic":"history","entry_id":"fa.history.ptolemy.tetrabiblos","relevant":1}
+{"query_group":"mesopotamia","query":"تاریخ طالع‌بینی بابلی، لوح‌های میخی و دفترهای رصد نجومی","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.venus","relevant":0}
+{"query_group":"mesopotamia","query":"Babylonian omen texts, cuneiform astronomy and observational diaries","language":"en","topic":"history","entry_id":"en.history.mesopotamia.celestial","relevant":1}
+{"query_group":"mesopotamia","query":"Babylonian omen texts, cuneiform astronomy and observational diaries","language":"en","topic":"history","entry_id":"en.history.ptolemy.tetrabiblos","relevant":1}
+{"query_group":"mesopotamia","query":"Babylonian omen texts, cuneiform astronomy and observational diaries","language":"en","topic":"history","entry_id":"en.history.maya.dresden.venus","relevant":0}
+{"query_group":"ptolemy","query":"تترابیبلوس بطلمیوس و تفاوت نجوم محاسباتی با داوری احکامی","language":"fa","topic":"history","entry_id":"fa.history.ptolemy.tetrabiblos","relevant":1}
+{"query_group":"ptolemy","query":"تترابیبلوس بطلمیوس و تفاوت نجوم محاسباتی با داوری احکامی","language":"fa","topic":"history","entry_id":"fa.history.latin.fendulus.manuscript","relevant":1}
+{"query_group":"ptolemy","query":"تترابیبلوس بطلمیوس و تفاوت نجوم محاسباتی با داوری احکامی","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.eclipse","relevant":0}
+{"query_group":"ptolemy","query":"Ptolemy Tetrabiblos and the distinction between astronomy and astrological judgement","language":"en","topic":"history","entry_id":"en.history.ptolemy.tetrabiblos","relevant":1}
+{"query_group":"ptolemy","query":"Ptolemy Tetrabiblos and the distinction between astronomy and astrological judgement","language":"en","topic":"history","entry_id":"en.history.latin.fendulus.manuscript","relevant":1}
+{"query_group":"ptolemy","query":"Ptolemy Tetrabiblos and the distinction between astronomy and astrological judgement","language":"en","topic":"history","entry_id":"en.history.maya.dresden.eclipse","relevant":0}
+{"query_group":"abumashar","query":"ابومعشر بلخی و مقدمه کبیر، انتقال دانش یونانی و هندی","language":"fa","topic":"history","entry_id":"fa.history.abumashar.introduction","relevant":1}
+{"query_group":"abumashar","query":"ابومعشر بلخی و مقدمه کبیر، انتقال دانش یونانی و هندی","language":"fa","topic":"history","entry_id":"fa.history.biruni.tafhim","relevant":1}
+{"query_group":"abumashar","query":"ابومعشر بلخی و مقدمه کبیر، انتقال دانش یونانی و هندی","language":"fa","topic":"history","entry_id":"fa.history.jyotisha.classical","relevant":0}
+{"query_group":"abumashar","query":"Abu Mashar Great Introduction and transmission of Greek and Indian learning","language":"en","topic":"history","entry_id":"en.history.abumashar.introduction","relevant":1}
+{"query_group":"abumashar","query":"Abu Mashar Great Introduction and transmission of Greek and Indian learning","language":"en","topic":"history","entry_id":"en.history.biruni.tafhim","relevant":1}
+{"query_group":"abumashar","query":"Abu Mashar Great Introduction and transmission of Greek and Indian learning","language":"en","topic":"history","entry_id":"en.history.jyotisha.classical","relevant":0}
+{"query_group":"biruni","query":"کتاب التفهیم بیرونی به فارسی و عربی و آموزش نجوم","language":"fa","topic":"history","entry_id":"fa.history.biruni.tafhim","relevant":1}
+{"query_group":"biruni","query":"کتاب التفهیم بیرونی به فارسی و عربی و آموزش نجوم","language":"fa","topic":"history","entry_id":"fa.history.abumashar.introduction","relevant":1}
+{"query_group":"biruni","query":"کتاب التفهیم بیرونی به فارسی و عربی و آموزش نجوم","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.venus","relevant":0}
+{"query_group":"biruni","query":"Al-Biruni Al-Tafhim in Persian and Arabic, teaching astronomy","language":"en","topic":"history","entry_id":"en.history.biruni.tafhim","relevant":1}
+{"query_group":"biruni","query":"Al-Biruni Al-Tafhim in Persian and Arabic, teaching astronomy","language":"en","topic":"history","entry_id":"en.history.abumashar.introduction","relevant":1}
+{"query_group":"biruni","query":"Al-Biruni Al-Tafhim in Persian and Arabic, teaching astronomy","language":"en","topic":"history","entry_id":"en.history.maya.dresden.venus","relevant":0}
+{"query_group":"hebrew","query":"ابراهیم بن عزرا و تاریخ احکام نجوم در متون عبری","language":"fa","topic":"history","entry_id":"fa.history.hebrew.ibn-ezra","relevant":1}
+{"query_group":"hebrew","query":"ابراهیم بن عزرا و تاریخ احکام نجوم در متون عبری","language":"fa","topic":"history","entry_id":"fa.method.cross-cultural.integrity","relevant":1}
+{"query_group":"hebrew","query":"ابراهیم بن عزرا و تاریخ احکام نجوم در متون عبری","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.venus","relevant":0}
+{"query_group":"hebrew","query":"Abraham ibn Ezra and the history of astrology in Hebrew texts","language":"en","topic":"history","entry_id":"en.history.hebrew.ibn-ezra","relevant":1}
+{"query_group":"hebrew","query":"Abraham ibn Ezra and the history of astrology in Hebrew texts","language":"en","topic":"history","entry_id":"en.method.cross-cultural.integrity","relevant":1}
+{"query_group":"hebrew","query":"Abraham ibn Ezra and the history of astrology in Hebrew texts","language":"en","topic":"history","entry_id":"en.history.maya.dresden.venus","relevant":0}
+{"query_group":"jyotisha","query":"جوتیش هندی، متون سانسکریت، ورهامی‌هیره و پاراشره","language":"fa","topic":"history","entry_id":"fa.history.jyotisha.classical","relevant":1}
+{"query_group":"jyotisha","query":"جوتیش هندی، متون سانسکریت، ورهامی‌هیره و پاراشره","language":"fa","topic":"history","entry_id":"fa.history.hebrew.ibn-ezra","relevant":1}
+{"query_group":"jyotisha","query":"جوتیش هندی، متون سانسکریت، ورهامی‌هیره و پاراشره","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.eclipse","relevant":0}
+{"query_group":"jyotisha","query":"Indian Jyotisha, Sanskrit texts, Varahamihira and Parashara","language":"en","topic":"history","entry_id":"en.history.jyotisha.classical","relevant":1}
+{"query_group":"jyotisha","query":"Indian Jyotisha, Sanskrit texts, Varahamihira and Parashara","language":"en","topic":"history","entry_id":"en.history.hebrew.ibn-ezra","relevant":1}
+{"query_group":"jyotisha","query":"Indian Jyotisha, Sanskrit texts, Varahamihira and Parashara","language":"en","topic":"history","entry_id":"en.history.maya.dresden.eclipse","relevant":0}
+{"query_group":"maya_venus","query":"جدول ونوس ۵۸۴ روزه در کدکس درسدن مایا","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.venus","relevant":1}
+{"query_group":"maya_venus","query":"جدول ونوس ۵۸۴ روزه در کدکس درسدن مایا","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.eclipse","relevant":1}
+{"query_group":"maya_venus","query":"جدول ونوس ۵۸۴ روزه در کدکس درسدن مایا","language":"fa","topic":"history","entry_id":"fa.history.ptolemy.tetrabiblos","relevant":0}
+{"query_group":"maya_venus","query":"The 584-day Venus table in the Maya Dresden Codex","language":"en","topic":"history","entry_id":"en.history.maya.dresden.venus","relevant":1}
+{"query_group":"maya_venus","query":"The 584-day Venus table in the Maya Dresden Codex","language":"en","topic":"history","entry_id":"en.history.maya.dresden.eclipse","relevant":1}
+{"query_group":"maya_venus","query":"The 584-day Venus table in the Maya Dresden Codex","language":"en","topic":"history","entry_id":"en.history.ptolemy.tetrabiblos","relevant":0}
+{"query_group":"maya_eclipse","query":"جدول کسوف مایا و چرخه ۴۰۵ ماه قمری","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.eclipse","relevant":1}
+{"query_group":"maya_eclipse","query":"جدول کسوف مایا و چرخه ۴۰۵ ماه قمری","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.venus","relevant":1}
+{"query_group":"maya_eclipse","query":"جدول کسوف مایا و چرخه ۴۰۵ ماه قمری","language":"fa","topic":"history","entry_id":"fa.history.jyotisha.classical","relevant":0}
+{"query_group":"maya_eclipse","query":"Maya eclipse table and the 405-lunation cycle","language":"en","topic":"history","entry_id":"en.history.maya.dresden.eclipse","relevant":1}
+{"query_group":"maya_eclipse","query":"Maya eclipse table and the 405-lunation cycle","language":"en","topic":"history","entry_id":"en.history.maya.dresden.venus","relevant":1}
+{"query_group":"maya_eclipse","query":"Maya eclipse table and the 405-lunation cycle","language":"en","topic":"history","entry_id":"en.history.jyotisha.classical","relevant":0}
+{"query_group":"latin_manuscript","query":"نسخه مصور لاتین ابومعشر مورگان فندولوس","language":"fa","topic":"history","entry_id":"fa.history.latin.fendulus.manuscript","relevant":1}
+{"query_group":"latin_manuscript","query":"نسخه مصور لاتین ابومعشر مورگان فندولوس","language":"fa","topic":"history","entry_id":"fa.history.abumashar.introduction","relevant":1}
+{"query_group":"latin_manuscript","query":"نسخه مصور لاتین ابومعشر مورگان فندولوس","language":"fa","topic":"history","entry_id":"fa.history.maya.dresden.eclipse","relevant":0}
+{"query_group":"latin_manuscript","query":"The Morgan Fendulus illuminated Latin manuscript of Abu Mashar","language":"en","topic":"history","entry_id":"en.history.latin.fendulus.manuscript","relevant":1}
+{"query_group":"latin_manuscript","query":"The Morgan Fendulus illuminated Latin manuscript of Abu Mashar","language":"en","topic":"history","entry_id":"en.history.abumashar.introduction","relevant":1}
+{"query_group":"latin_manuscript","query":"The Morgan Fendulus illuminated Latin manuscript of Abu Mashar","language":"en","topic":"history","entry_id":"en.history.maya.dresden.eclipse","relevant":0}
+{"query_group":"cross_cultural","query":"مقایسه تمدن‌ها بدون ادغام روش‌های نجومی و طالع‌بینی","language":"fa","topic":"history","entry_id":"fa.method.cross-cultural.integrity","relevant":1}
+{"query_group":"cross_cultural","query":"مقایسه تمدن‌ها بدون ادغام روش‌های نجومی و طالع‌بینی","language":"fa","topic":"history","entry_id":"fa.history.mesopotamia.celestial","relevant":1}
+{"query_group":"cross_cultural","query":"مقایسه تمدن‌ها بدون ادغام روش‌های نجومی و طالع‌بینی","language":"fa","topic":"history","entry_id":"fa.planet.sun","relevant":0}
+{"query_group":"cross_cultural","query":"Compare ancient traditions without conflating their calculation methods","language":"en","topic":"history","entry_id":"en.method.cross-cultural.integrity","relevant":1}
+{"query_group":"cross_cultural","query":"Compare ancient traditions without conflating their calculation methods","language":"en","topic":"history","entry_id":"en.history.mesopotamia.celestial","relevant":1}
+{"query_group":"cross_cultural","query":"Compare ancient traditions without conflating their calculation methods","language":"en","topic":"history","entry_id":"en.planet.sun","relevant":0}

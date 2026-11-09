@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.2.2"
+VERSION = "0.3.1"
 FILES = [
     "data/fa/core.jsonl",
     "data/en/core.jsonl",

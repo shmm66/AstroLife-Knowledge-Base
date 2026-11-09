@@ -197,7 +197,7 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     model = {
         "model_name": "astrolife-local-relevance-ranker",
-        "model_version": "0.2.0",
+        "model_version": "0.3.1",
         "algorithm": "standardized logistic regression trained with batch gradient descent",
         "feature_names": FEATURES,
         "means": means,
