@@ -40,6 +40,10 @@ Holdout results: classification accuracy 0.823, precision 0.828, recall 0.800 an
 
 These are preliminary results on a small, maintainer-labelled holdout, not an independent external benchmark. They measure retrieval relevance only—not the scientific validity of astrology or the correctness of an interpretation. The holdout is useful for regression checks but should not be described as independent validation. More independently authored Persian and English query families, blind double annotation and adjudication are required before describing the ranker as production-grade.
 
+## Independent relevance evaluation queue
+
+An unlabelled blind-review queue is available at `evaluation/independent-review-queue-0.1.csv`: 12 new bilingual query families, 24 queries and 192 query–card candidate pairs. Two independent Persian/English reviewers and adjudication are still required. The queue is intentionally excluded from the current 0.3.1 metrics and training set until labels are completed under `evaluation/ANNOTATION-PROTOCOL.md`.
+
 ## Privacy
 The public repository contains no birth profiles, names, charts, prompts, relationship details or generated reports. The desktop app downloads public library files only. User chart data is not uploaded to GitHub. The current UI does not collect or upload feedback for model training.
 
