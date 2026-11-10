@@ -2,9 +2,9 @@
 
 An open, bilingual Persian/English knowledge library and offline-first retrieval agent for AstroLife Pro.
 
-**Release:** 0.3.0
-**Curated corpus:** 154 reviewed seed cards — 77 Persian and 77 English  
-**Registered sources:** 32  
+**Release:** 0.3.1
+**Curated corpus:** 190 reviewed seed cards — 95 Persian and 95 English  
+**Registered sources:** 52  
 **Structured planetary reference:** 8 IAU planets + 5 JPL-listed dwarf planets  
 **Release date:** 2026-11-09
 
@@ -34,11 +34,11 @@ A client should pin all files for a release to one immutable Git commit, verify 
 - **Copyright:** protected source texts and data are not copied into this repository. It contains source links, bibliographic metadata and original summaries.
 
 ## Machine-learning evaluation
-The ranker was trained on 168 maintainer-curated relevance judgements spanning 17 bilingual query families. Persian and English variants of a family are kept together during the group-disjoint split: 13 families for training and 4 for holdout (40 candidate judgements).
+The 0.3.1 ranker was trained on 228 maintainer-curated relevance judgements spanning 27 bilingual query families. Persian and English variants remain grouped together to avoid cross-language family leakage. The current group-disjoint evaluation uses 20 training groups and 7 holdout groups (62 candidate judgements).
 
-Holdout results: classification accuracy 0.900, precision 1.000, recall 0.800, F1 0.889; ranking Precision@3 1.000, Recall@3 0.625, MRR 1.000 and nDCG@5 0.996.
+Holdout results: classification accuracy 0.823, precision 0.828, recall 0.800 and F1 0.814; ranking Precision@3 0.857, Recall@3 0.607, MRR 1.000 and nDCG@5 0.968.
 
-These are preliminary results on a small, hand-curated holdout, not an independent external benchmark. They measure retrieval relevance only—not the scientific validity of astrology or the correctness of an interpretation. More independent bilingual annotations are required before describing the ranker as production-grade.
+These are preliminary results on a small, maintainer-labelled holdout, not an independent external benchmark. They measure retrieval relevance only—not the scientific validity of astrology or the correctness of an interpretation. The holdout is useful for regression checks but should not be described as independent validation. More independently authored Persian and English query families, blind double annotation and adjudication are required before describing the ranker as production-grade.
 
 ## Privacy
 The public repository contains no birth profiles, names, charts, prompts, relationship details or generated reports. The desktop app downloads public library files only. User chart data is not uploaded to GitHub. The current UI does not collect or upload feedback for model training.
@@ -50,9 +50,9 @@ The public repository contains no birth profiles, names, charts, prompts, relati
 
 ## Release status
 - Public repository: published at https://github.com/shmm66/AstroLife-Knowledge-Base. Client sync pins one immutable commit and verifies SHA-256.
-- Offline-first AstroLife Pro integration: packaged for desktop version 0.9.0.
-- Manifest, source references, content parity and SHA-256 validation: part of release checks.
-- Independent evaluation and broader content expansion: ongoing.
+- Offline-first AstroLife Pro integration: downloads a public snapshot pinned to one immutable Git commit, verifies manifest byte counts and SHA-256 values, stages all seven allowlisted payloads, validates the snapshot, then atomically activates it. Failed updates retain the prior active snapshot for offline fallback.
+- Manifest, source references, content parity and SHA-256 validation: release gates. The 0.3.1 planetary-reference schema manifest entry was corrected to the live file's 3,902-byte size and SHA-256 `561e41a0cdcb28ec99185d6fa305396f345c6afd2417566d8cf74e6e9233d809`.
+- Independent bilingual evaluation, broader content expansion and additional blind annotation: ongoing.
 
 This is a growing reference library, not an exhaustive encyclopedia. Correct astronomical calculations do not establish predictive astrological validity.
 
@@ -80,4 +80,4 @@ This release adds bilingual method cards for general Solar Hijri birth-month coh
 - Wellbeing content remains limited to general routines, rest and stress management. It does not diagnose or predict disease, pregnancy, death, surgery or treatment outcomes.
 - New source records document Solar Hijri calendar history, Solar Return taxonomy, annual-transit report structure, Abu Ma'shar's annual revolutions and historical scholarship.
 
-The 0.3.0 corpus contains 77 Persian and 77 English cards with 32 registered sources. Manifest hashes and byte counts are intended to be verified before the app activates a new library snapshot.
+The 0.3.0 methodology remains part of the 0.3.1 corpus. The current 0.3.1 release contains 95 Persian and 95 English cards and 52 registered sources. All manifest byte counts and SHA-256 values must match the exact bytes at the pinned commit before the app activates a new snapshot.
