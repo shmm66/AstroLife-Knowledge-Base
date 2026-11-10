@@ -35,8 +35,8 @@
       "entries": null
     },
     "schemas/planetary-reference.schema.json": {
-      "sha256": "0e7a5250334d7b02da8f0346803da4559b5d198b2a91854cefa58f24efe1d25c",
-      "bytes": 4078,
+      "sha256": "561e41a0cdcb28ec99185d6fa305396f345c6afd2417566d8cf74e6e9233d809",
+      "bytes": 3902,
       "entries": null
     },
     "artifacts/ranker-model.json": {
