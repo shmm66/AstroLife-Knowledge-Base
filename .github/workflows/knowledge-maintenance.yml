@@ -54,7 +54,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$BRANCH"
-          git add maintenance/state/source-state.json maintenance/candidates/
+          git add maintenance/state/source-state.json
+          if [ -d maintenance/candidates ]; then
+            git add maintenance/candidates/
+          fi
           git commit -m "chore(knowledge): record source review candidates"
           git push origin "$BRANCH"
           gh pr create --draft --base main --head "$BRANCH" \
