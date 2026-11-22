@@ -28,7 +28,7 @@ Combine measured chart facts with a local, versioned, source-attributed library.
 - Each query family must include both Persian and English variants and positive/negative candidates.
 - Train/holdout split is by the complete bilingual query family, preventing translated versions of the same intent from leaking across the split.
 - Report classification metrics and ranking metrics (Precision@3, Recall@3, MRR and nDCG@5).
-- The current holdout includes only four bilingual query families; results are exploratory and not an external benchmark.
+- For the 0.3.1 seed evaluation, `training/seed-labels.jsonl` contains 27 bilingual query families (228 judgements). With seed 42 and a 25% group holdout, the reproducible split is 20 training groups and 7 holdout groups (62 holdout judgements). These results are exploratory, maintainer-labelled and not an external benchmark. The separate 12-family independent-review queue is unlabelled and excluded from these metrics.
 - Metrics measure retrieval relevance only. They do not measure interpretation quality, chart accuracy or predictive validity.
 - Do not advertise the ranker as production-grade until a larger independently annotated bilingual benchmark is available.
 
