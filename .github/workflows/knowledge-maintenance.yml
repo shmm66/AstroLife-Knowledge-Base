@@ -1,0 +1,65 @@
+name: Knowledge Base Source Maintenance
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: astronomy-knowledge-maintenance
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile and test maintenance agent
+        run: |
+          python -m py_compile maintenance/agent.py
+          python -m unittest discover -s tests -p "test_maintenance_agent.py" -v
+      - name: Run official-source monitors
+        run: python maintenance/agent.py
+      - name: Upload source-monitor report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: astronomy-maintenance-report-${{ github.run_id }}
+          path: maintenance/reports/run-report.json
+          if-no-files-found: warn
+          retention-days: 45
+      - name: Open draft review pull request when source state changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          if [ -z "$(git status --porcelain -- maintenance/state/source-state.json maintenance/candidates/)" ]; then
+            echo "No new source fingerprints or review candidates."
+            exit 0
+          fi
+          BRANCH="agent/source-maintenance-$RUN_ID"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add maintenance/state/source-state.json
+          if [ -d maintenance/candidates ]; then
+            git add maintenance/candidates/
+          fi
+          git commit -m "chore(knowledge): record source review candidates"
+          git push origin "$BRANCH"
+          gh pr create --draft --base main --head "$BRANCH" \
+            --title "Astronomy source maintenance review" \
+            --body "Automated source-monitor results. Verify each canonical source and candidate. This PR does not approve cards, change corpus payloads, retrain the ranker or update the release manifest."

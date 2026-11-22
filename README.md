@@ -85,3 +85,11 @@ This release adds bilingual method cards for general Solar Hijri birth-month coh
 - New source records document Solar Hijri calendar history, Solar Return taxonomy, annual-transit report structure, Abu Ma'shar's annual revolutions and historical scholarship.
 
 The 0.3.0 methodology remains part of the 0.3.1 corpus. The current 0.3.1 release contains 95 Persian and 95 English cards and 52 registered sources. All manifest byte counts and SHA-256 values must match the exact bytes at the pinned commit before the app activates a new snapshot.
+
+## Maintenance agent and professional interpretation quality
+
+- The scheduled source-maintenance agent monitors official astronomy providers and scholarly metadata feeds. See [maintenance/README.md](maintenance/README.md) and [maintenance/REVIEW-POLICY.md](maintenance/REVIEW-POLICY.md).
+- The agent opens review candidates; it never approves cards, edits the release corpus, retrains the ranker or publishes a release automatically.
+- Chart interpretation writing follows [the professional astrologer writing standard](docs/PROFESSIONAL-ASTROLOGER-WRITING-STANDARD.md), the Persian/English runtime prompt drafts in `prompts/`, the structured narrative contract in `schemas/interpretation-narrative.schema.json`, and the review rubric in `evaluation/narrative-quality-rubric.json`.
+- The narrative standard prioritizes whole-chart synthesis, actual chart evidence, natural Persian/English prose, nuance and non-fatalistic language. It evaluates writing quality; it does not establish predictive astrology as science.
+

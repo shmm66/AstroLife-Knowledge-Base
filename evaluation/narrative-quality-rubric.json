@@ -1,0 +1,106 @@
+{
+  "rubric_version": "1.0",
+  "scale": {
+    "0": "Fail: materially wrong or unusable",
+    "1": "Weak: generic, incomplete or poorly supported",
+    "2": "Acceptable: mostly correct but uneven or templated",
+    "3": "Strong: specific, coherent and professional",
+    "4": "Excellent: integrated, natural, nuanced and precise"
+  },
+  "dimensions": [
+    {
+      "id": "chart_fidelity",
+      "weight": 25,
+      "hard_fail": true,
+      "checks": [
+        "Every placement, house, aspect, orb and date exists in supplied chart data.",
+        "Birth-time uncertainty is respected.",
+        "No missing placements are guessed."
+      ]
+    },
+    {
+      "id": "whole_chart_synthesis",
+      "weight": 20,
+      "checks": [
+        "Connect multiple chart factors into a few themes.",
+        "Reconcile tensions rather than listing contradictions.",
+        "Do not pad with weak or irrelevant placements."
+      ]
+    },
+    {
+      "id": "personal_specificity",
+      "weight": 15,
+      "checks": [
+        "The answer depends on this chart and the actual question.",
+        "It is not interchangeable with a generic sign description.",
+        "Examples are possibilities, not asserted biography."
+      ]
+    },
+    {
+      "id": "nuance_and_agency",
+      "weight": 10,
+      "checks": [
+        "Balance strengths and challenges.",
+        "Avoid fatalism and guaranteed outcomes.",
+        "Preserve reader agency."
+      ]
+    },
+    {
+      "id": "human_voice",
+      "weight": 10,
+      "checks": [
+        "Natural rhythm and transitions.",
+        "No repeated template phrases or empty flattery.",
+        "No unnecessary jargon or repetitive disclaimers."
+      ]
+    },
+    {
+      "id": "question_fit",
+      "weight": 8,
+      "checks": [
+        "Match the chart type and requested depth.",
+        "Use the right method for natal, transit, synastry or return readings."
+      ]
+    },
+    {
+      "id": "language_quality",
+      "weight": 7,
+      "checks": [
+        "Persian is natural, not literal translation.",
+        "Terminology and register are consistent.",
+        "Avoid awkward repeated openings."
+      ]
+    },
+    {
+      "id": "evidence_integrity",
+      "weight": 5,
+      "hard_fail": true,
+      "checks": [
+        "Numerical astronomy remains distinct from symbolism.",
+        "Historical doctrine and empirical research are not conflated.",
+        "Sources and limitations are retained."
+      ]
+    }
+  ],
+  "acceptance": {
+    "minimum_weighted_score": 3.2,
+    "minimum_each_dimension": 3,
+    "hard_fail_on_any_hard_fail": true,
+    "human_review_required_for_new_templates": true
+  },
+  "forbidden_patterns_fa": [
+    "سرنوشت شما قطعاً",
+    "حتماً ازدواج خواهید کرد",
+    "این جنبه ثابت می‌کند",
+    "شما ذاتاً همیشه",
+    "انرژی فوق‌العاده‌ای دارید"
+  ],
+  "forbidden_patterns_en": [
+    "you are destined to",
+    "you will definitely",
+    "this proves that",
+    "you will certainly marry",
+    "your chart guarantees"
+  ],
+  "note": "This rubric measures writing quality and chart fidelity, not scientific proof of astrology."
+}
