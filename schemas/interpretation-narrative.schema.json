@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/shmm66/AstroLife-Knowledge-Base/blob/main/schemas/interpretation-narrative.schema.json",
+  "title": "AstroLife chart interpretation narrative contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "language",
+    "chart_type",
+    "tradition",
+    "calculation_context",
+    "central_synthesis",
+    "themes",
+    "closing_reflection",
+    "limitations",
+    "source_ids"
+  ],
+  "properties": {
+    "language": {
+      "enum": [
+        "fa",
+        "en"
+      ]
+    },
+    "chart_type": {
+      "enum": [
+        "natal",
+        "transit",
+        "progression",
+        "solar_return",
+        "lunar_return",
+        "synastry",
+        "composite",
+        "horary",
+        "electional",
+        "solar_hijri_cohort"
+      ]
+    },
+    "tradition": {
+      "type": "string",
+      "minLength": 2
+    },
+    "calculation_context": {
+      "type": "object",
+      "required": [
+        "birth_time_confidence",
+        "house_system",
+        "zodiac"
+      ],
+      "properties": {
+        "birth_time_confidence": {
+          "enum": [
+            "exact",
+            "approximate",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "house_system": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zodiac": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "ephemeris_provider": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "calculation_timestamp": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "central_synthesis": {
+      "type": "string",
+      "minLength": 80
+    },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "chart_evidence",
+          "interpretation",
+          "balanced_expression"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 2
+          },
+          "chart_evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "interpretation": {
+            "type": "string",
+            "minLength": 50
+          },
+          "balanced_expression": {
+            "type": "string",
+            "minLength": 30
+          },
+          "reflection_question": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "closing_reflection": {
+      "type": "string",
+      "minLength": 40
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "transit_window": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "start": {
+          "type": "string"
+        },
+        "end": {
+          "type": "string"
+        },
+        "time_scale": {
+          "type": "string"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "hard_fidelity_pass": {
+          "type": "boolean"
+        },
+        "evidence_integrity_pass": {
+          "type": "boolean"
+        },
+        "human_review_required": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
