@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "description": "Official-source monitoring only. Metadata and review candidates; no automatic science claims or release updates.",
+  "policy": {
+    "user_data": "Never collect or transmit profiles, birth data, charts, prompts or reports.",
+    "ingestion": "Metadata-first; no bulk copying of third-party catalogues, pages or abstracts.",
+    "approval": "Every candidate requires human scientific, licensing and bilingual editorial review.",
+    "auto_release": false
+  },
+  "sources": [
+    {
+      "id": "JPL_HORIZONS_API",
+      "title": "NASA/JPL Horizons API documentation",
+      "kind": "page",
+      "url": "https://ssd-api.jpl.nasa.gov/doc/horizons.html",
+      "registered_source_id": "JPL_HORIZONS",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "API contract and reproducible ephemeris settings"
+    },
+    {
+      "id": "JPL_PHYSICAL_PARAMETERS",
+      "title": "NASA/JPL Planetary Physical Parameters",
+      "kind": "page",
+      "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+      "registered_source_id": "JPL_PHYSICAL_PARAMETERS",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "Physical parameters, definitions and published uncertainties"
+    },
+    {
+      "id": "JPL_HORIZONS_LIVE",
+      "title": "NASA/JPL Horizons live ephemeris health probe",
+      "kind": "horizons_probe",
+      "url": "https://ssd.jpl.nasa.gov/api/horizons.api",
+      "registered_source_id": "JPL_HORIZONS",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "health_only",
+      "role": "Live endpoint and API signature validation"
+    },
+    {
+      "id": "IAU_RESOLUTIONS",
+      "title": "International Astronomical Union resolutions catalogue",
+      "kind": "page",
+      "url": "https://www.iau.org/Iau/Iau/Publications/List-of-Resolutions.aspx",
+      "registered_source_id": "IAU_RESOLUTION_2006",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "Formal nomenclature and planetary definitions"
+    },
+    {
+      "id": "IAU_CONSTELLATIONS",
+      "title": "International Astronomical Union constellation reference",
+      "kind": "page",
+      "url": "https://www.iau.org/IAU/IAU/Astronomy-FAQs/Constellations.aspx",
+      "registered_source_id": "IAU_CONSTELLATIONS",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "Official constellation names and boundaries"
+    },
+    {
+      "id": "MPC_LIST_API_DOCS",
+      "title": "Minor Planet Center public List API documentation",
+      "kind": "page",
+      "url": "https://docs.minorplanetcenter.net/mpc-ops-docs/apis/list/",
+      "suggested_source_id": "MPC_LIST_API",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "Small-body, comet, NEO and satellite API contract"
+    },
+    {
+      "id": "MPC_LIVE_PROBE",
+      "title": "Minor Planet Center live NEO list API",
+      "kind": "mpc_probe",
+      "url": "https://data.minorplanetcenter.net/api/list",
+      "suggested_source_id": "MPC_LIST_API",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "health_only",
+      "role": "API health and response-shape check"
+    },
+    {
+      "id": "EXOPLANET_TAP_DOCS",
+      "title": "NASA Exoplanet Archive TAP documentation",
+      "kind": "page",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html",
+      "suggested_source_id": "NASA_EXOPLANET_ARCHIVE",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "TAP schema and archive data-use requirements"
+    },
+    {
+      "id": "EXOPLANET_TAP_COUNT",
+      "title": "NASA Exoplanet Archive pscomppars row count",
+      "kind": "tap_count",
+      "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+count%28%2A%29+from+pscomppars&format=json",
+      "suggested_source_id": "NASA_EXOPLANET_ARCHIVE",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "dataset_candidate",
+      "role": "Detects catalogue growth without copying the table"
+    },
+    {
+      "id": "GAIA_TAP_DOCS",
+      "title": "ESA Gaia Archive programmatic access",
+      "kind": "page",
+      "url": "https://www.cosmos.esa.int/web/gaia-users/archive/programmatic-access",
+      "suggested_source_id": "ESA_GAIA_ARCHIVE",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "human_review",
+      "role": "Gaia TAP and data release documentation"
+    },
+    {
+      "id": "GAIA_DR3_PROBE",
+      "title": "ESA Gaia DR3 TAP sample probe",
+      "kind": "json_probe",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync?REQUEST=doQuery&LANG=ADQL&FORMAT=json&QUERY=SELECT%20TOP%201%20source_id%2Cra%2Cdec%20FROM%20gaiadr3.gaia_source",
+      "suggested_source_id": "ESA_GAIA_ARCHIVE",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "health_only",
+      "role": "Checks public DR3 query availability"
+    },
+    {
+      "id": "ADS_API_DOCS",
+      "title": "NASA Astrophysics Data System API documentation",
+      "kind": "page",
+      "url": "https://ui.adsabs.harvard.edu/help/api/",
+      "suggested_source_id": "NASA_ADS",
+      "evidence_class": "empirical_research",
+      "change_action": "human_review",
+      "role": "Bibliographic API contract; any token must be a GitHub secret"
+    },
+    {
+      "id": "ARXIV_EXOPLANET_FEED",
+      "title": "arXiv exoplanet and stellar research feed",
+      "kind": "atom_feed",
+      "url": "https://export.arxiv.org/api/query?search_query=cat%3Aastro-ph.EP%20OR%20cat%3Aastro-ph.SR&start=0&max_results=40&sortBy=submittedDate&sortOrder=descending",
+      "suggested_source_id": "ARXIV_ASTROPH",
+      "evidence_class": "astronomical_measurement",
+      "change_action": "literature_candidate",
+      "role": "New astronomy paper metadata; abstracts are not stored"
+    },
+    {
+      "id": "CROSSREF_ASTROLOGY_RESEARCH",
+      "title": "Crossref metadata search for astrology research",
+      "kind": "crossref_feed",
+      "url": "https://api.crossref.org/works?query=astrology%20zodiac%20empirical&filter=from-pub-date:2018-01-01&rows=30&select=DOI,title,published-print,published-online,type,URL,publisher",
+      "suggested_source_id": "CROSSREF_LITERATURE",
+      "evidence_class": "empirical_research",
+      "change_action": "literature_candidate",
+      "role": "Bibliographic discovery only; each result needs independent review"
+    }
+  ]
+}
